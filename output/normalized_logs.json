@@ -32332,5 +32332,2570 @@
       "new": "30.0"
     },
     "raw": "<sapphire>\n    <binData>\n        <block>\n            <sessionID V=\"*\"/>\n            <startDateTime V=\"17118997999509055733\"/>\n            <blockSQN V=\"303\"/>\n            <params>\n                <gasDeliv>\n                    <source V=\"ge_anesthesiaDevice\"/>\n                    <index V=\"0\"/>\n                </gasDeliv>\n                <gasMon>\n                    <source V=\"ge_anesthesiaDevice\"/>\n                    <index V=\"0\"/>\n                    <cfg>\n                        <numLimit>\n  "
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TV",
+    "context": {
+      "parameter": "TV",
+      "value": "----",
+      "unit": "mL",
+      "raw_command": "set TV                       = ---- (mL)"
+    },
+    "raw": "set TV                       = ---- (mL)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set RR",
+    "context": {
+      "parameter": "RR",
+      "value": "---",
+      "unit": "/min",
+      "raw_command": "set RR                       = --- (/min)"
+    },
+    "raw": "set RR                       = --- (/min)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set I:E",
+    "context": {
+      "parameter": "I:E",
+      "value": "----",
+      "unit": null,
+      "raw_command": "set I:E                      = ----"
+    },
+    "raw": "set I:E                      = ----"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set InspPause",
+    "context": {
+      "parameter": "InspPause",
+      "value": "--",
+      "unit": "%",
+      "raw_command": "set InspPause                = -- (%)"
+    },
+    "raw": "set InspPause                = -- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set PEEP",
+    "context": {
+      "parameter": "PEEP",
+      "value": "--",
+      "unit": "cmH2O",
+      "raw_command": "set PEEP                     = -- (cmH2O)"
+    },
+    "raw": "set PEEP                     = -- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Plimit",
+    "context": {
+      "parameter": "Plimit",
+      "value": "040",
+      "unit": "cmH2O",
+      "raw_command": "set Plimit                   = 040 (cmH2O)"
+    },
+    "raw": "set Plimit                   = 040 (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Pinsp",
+    "context": {
+      "parameter": "Pinsp",
+      "value": "--",
+      "unit": "cmH2O",
+      "raw_command": "set Pinsp                    = -- (cmH2O)"
+    },
+    "raw": "set Pinsp                    = -- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Sustained Pres Alarm",
+    "context": {
+      "parameter": "Sustained Pres Alarm",
+      "value": "--",
+      "unit": "cmH2O",
+      "raw_command": "set Sustained Pres Alarm     = -- (cmH2O)"
+    },
+    "raw": "set Sustained Pres Alarm     = -- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set MVexp Hi Alarm",
+    "context": {
+      "parameter": "MVexp Hi Alarm",
+      "value": "100",
+      "unit": "L/min*10",
+      "raw_command": "set MVexp Hi Alarm           = 100 (L/min*10)"
+    },
+    "raw": "set MVexp Hi Alarm           = 100 (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set MVexp Lo Alarm",
+    "context": {
+      "parameter": "MVexp Lo Alarm",
+      "value": "020",
+      "unit": "L/min*10",
+      "raw_command": "set MVexp Lo Alarm           = 020 (L/min*10)"
+    },
+    "raw": "set MVexp Lo Alarm           = 020 (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TVexp Hi Alarm",
+    "context": {
+      "parameter": "TVexp Hi Alarm",
+      "value": "0100",
+      "unit": "mL/10",
+      "raw_command": "set TVexp Hi Alarm           = 0100 (mL/10)"
+    },
+    "raw": "set TVexp Hi Alarm           = 0100 (mL/10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TVexp Lo Alarm",
+    "context": {
+      "parameter": "TVexp Lo Alarm",
+      "value": "----",
+      "unit": "mL/10",
+      "raw_command": "set TVexp Lo Alarm           = ---- (mL/10)"
+    },
+    "raw": "set TVexp Lo Alarm           = ---- (mL/10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2 Hi Alarm",
+    "context": {
+      "parameter": "FiO2 Hi Alarm",
+      "value": "---",
+      "unit": "%",
+      "raw_command": "set FiO2 Hi Alarm            = --- (%)"
+    },
+    "raw": "set FiO2 Hi Alarm            = --- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2 Lo Alarm",
+    "context": {
+      "parameter": "FiO2 Lo Alarm",
+      "value": "021",
+      "unit": "%",
+      "raw_command": "set FiO2 Lo Alarm            = 021 (%)"
+    },
+    "raw": "set FiO2 Lo Alarm            = 021 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Vent Mode",
+    "context": {
+      "parameter": "Vent Mode",
+      "value": "-",
+      "unit": null,
+      "raw_command": "set Vent Mode                = -"
+    },
+    "raw": "set Vent Mode                = -"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Bias Flow",
+    "context": {
+      "parameter": "Bias Flow",
+      "value": "---",
+      "unit": "L/min*10",
+      "raw_command": "set Bias Flow                = --- (L/min*10)"
+    },
+    "raw": "set Bias Flow                = --- (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2",
+    "context": {
+      "parameter": "FiO2",
+      "value": "100",
+      "unit": "%",
+      "raw_command": "set FiO2                     = 100 (%)"
+    },
+    "raw": "set FiO2                     = 100 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Pasb",
+    "context": {
+      "parameter": "Pasb",
+      "value": "--",
+      "unit": null,
+      "raw_command": "set Pasb                     = --"
+    },
+    "raw": "set Pasb                     = --"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Psupp",
+    "context": {
+      "parameter": "Psupp",
+      "value": "--",
+      "unit": "cmH2O",
+      "raw_command": "set Psupp                    = -- (cmH2O)"
+    },
+    "raw": "set Psupp                    = -- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Leak Alarm",
+    "context": {
+      "parameter": "Leak Alarm",
+      "value": "--",
+      "unit": "L/min*10",
+      "raw_command": "set Leak Alarm               = -- (L/min*10)"
+    },
+    "raw": "set Leak Alarm               = -- (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Pmax",
+    "context": {
+      "parameter": "Pmax",
+      "value": "---",
+      "unit": "cmH2O",
+      "raw_command": "set Pmax                     = --- (cmH2O)"
+    },
+    "raw": "set Pmax                     = --- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set RR Hi",
+    "context": {
+      "parameter": "RR Hi",
+      "value": "---",
+      "unit": "/min",
+      "raw_command": "set RR Hi                    = --- (/min)"
+    },
+    "raw": "set RR Hi                    = --- (/min)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set RR Lo",
+    "context": {
+      "parameter": "RR Lo",
+      "value": "---",
+      "unit": "/min",
+      "raw_command": "set RR Lo                    = --- (/min)"
+    },
+    "raw": "set RR Lo                    = --- (/min)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Apnea Delay",
+    "context": {
+      "parameter": "Apnea Delay",
+      "value": "30",
+      "unit": "seconds",
+      "raw_command": "set Apnea Delay              = 30 (seconds)"
+    },
+    "raw": "set Apnea Delay              = 30 (seconds)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Ramp",
+    "context": {
+      "parameter": "Ramp",
+      "value": "--",
+      "unit": null,
+      "raw_command": "set Ramp                     = --"
+    },
+    "raw": "set Ramp                     = --"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set ASB Ramp",
+    "context": {
+      "parameter": "ASB Ramp",
+      "value": "--",
+      "unit": null,
+      "raw_command": "set ASB Ramp                 = --"
+    },
+    "raw": "set ASB Ramp                 = --"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set EndoTubeType",
+    "context": {
+      "parameter": "EndoTubeType",
+      "value": "-",
+      "unit": null,
+      "raw_command": "set EndoTubeType             = -"
+    },
+    "raw": "set EndoTubeType             = -"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set EndoTubeSize",
+    "context": {
+      "parameter": "EndoTubeSize",
+      "value": "--",
+      "unit": "mm",
+      "raw_command": "set EndoTubeSize             = -- (mm)"
+    },
+    "raw": "set EndoTubeSize             = -- (mm)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Circuit Compliance Level",
+    "context": {
+      "parameter": "Circuit Compliance Level",
+      "value": "---",
+      "unit": "mL/cmH2O",
+      "raw_command": "set Circuit Compliance Level = --- (mL/cmH2O)"
+    },
+    "raw": "set Circuit Compliance Level = --- (mL/cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient Type",
+    "context": {
+      "parameter": "Patient Type",
+      "value": "-",
+      "unit": null,
+      "raw_command": "set Patient Type             = -"
+    },
+    "raw": "set Patient Type             = -"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Ideal Body Weight",
+    "context": {
+      "parameter": "Ideal Body Weight",
+      "value": "---",
+      "unit": "kg",
+      "raw_command": "set Ideal Body Weight        = --- (kg)"
+    },
+    "raw": "set Ideal Body Weight        = --- (kg)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Body Surface Area",
+    "context": {
+      "parameter": "Body Surface Area",
+      "value": "---",
+      "unit": "m2*100",
+      "raw_command": "set Body Surface Area        = --- (m2*100)"
+    },
+    "raw": "set Body Surface Area        = --- (m2*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient Weight",
+    "context": {
+      "parameter": "Patient Weight",
+      "value": "---",
+      "unit": "kg",
+      "raw_command": "set Patient Weight           = --- (kg)"
+    },
+    "raw": "set Patient Weight           = --- (kg)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient Height",
+    "context": {
+      "parameter": "Patient Height",
+      "value": "---",
+      "unit": "cm",
+      "raw_command": "set Patient Height           = --- (cm)"
+    },
+    "raw": "set Patient Height           = --- (cm)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient ID",
+    "context": {
+      "parameter": "Patient ID",
+      "value": "----------",
+      "unit": null,
+      "raw_command": "set Patient ID               = ----------"
+    },
+    "raw": "set Patient ID               = ----------"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient Bed Location",
+    "context": {
+      "parameter": "Patient Bed Location",
+      "value": "-----",
+      "unit": null,
+      "raw_command": "set Patient Bed Location     = -----"
+    },
+    "raw": "set Patient Bed Location     = -----"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set ASB End Flow",
+    "context": {
+      "parameter": "ASB End Flow",
+      "value": "--",
+      "unit": "L/min*10",
+      "raw_command": "set ASB End Flow             = -- (L/min*10)"
+    },
+    "raw": "set ASB End Flow             = -- (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Time Window",
+    "context": {
+      "parameter": "Time Window",
+      "value": "--",
+      "unit": "seconds",
+      "raw_command": "set Time Window              = -- (seconds)"
+    },
+    "raw": "set Time Window              = -- (seconds)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Itime",
+    "context": {
+      "parameter": "Itime",
+      "value": "---",
+      "unit": "%",
+      "raw_command": "set Itime                    = --- (%)"
+    },
+    "raw": "set Itime                    = --- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Iflow",
+    "context": {
+      "parameter": "Iflow",
+      "value": "--",
+      "unit": null,
+      "raw_command": "set Iflow                    = --"
+    },
+    "raw": "set Iflow                    = --"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Rise Rate",
+    "context": {
+      "parameter": "Rise Rate",
+      "value": "---",
+      "unit": null,
+      "raw_command": "set Rise Rate                = ---"
+    },
+    "raw": "set Rise Rate                = ---"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set PSV Rise Time",
+    "context": {
+      "parameter": "PSV Rise Time",
+      "value": "---",
+      "unit": "seconds*100",
+      "raw_command": "set PSV Rise Time            = --- (seconds*100)"
+    },
+    "raw": "set PSV Rise Time            = --- (seconds*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Flow Trigger",
+    "context": {
+      "parameter": "Flow Trigger",
+      "value": "--",
+      "unit": "L/min*10",
+      "raw_command": "set Flow Trigger             = -- (L/min*10)"
+    },
+    "raw": "set Flow Trigger             = -- (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Pressure Trigger",
+    "context": {
+      "parameter": "Pressure Trigger",
+      "value": "--",
+      "unit": "cmH2O",
+      "raw_command": "set Pressure Trigger         = -- (cmH2O)"
+    },
+    "raw": "set Pressure Trigger         = -- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Trigger Window",
+    "context": {
+      "parameter": "Trigger Window",
+      "value": "--",
+      "unit": "%",
+      "raw_command": "set Trigger Window           = -- (%)"
+    },
+    "raw": "set Trigger Window           = -- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set End Flow",
+    "context": {
+      "parameter": "End Flow",
+      "value": "--",
+      "unit": "%",
+      "raw_command": "set End Flow                 = -- (%)"
+    },
+    "raw": "set End Flow                 = -- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Tinsp",
+    "context": {
+      "parameter": "Tinsp",
+      "value": "----",
+      "unit": "seconds*10",
+      "raw_command": "set Tinsp                    = ---- (seconds*10)"
+    },
+    "raw": "set Tinsp                    = ---- (seconds*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Pause Time",
+    "context": {
+      "parameter": "Pause Time",
+      "value": "--",
+      "unit": "%",
+      "raw_command": "set Pause Time               = -- (%)"
+    },
+    "raw": "set Pause Time               = -- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Flow Rise",
+    "context": {
+      "parameter": "Flow Rise",
+      "value": "---",
+      "unit": null,
+      "raw_command": "set Flow Rise                = ---"
+    },
+    "raw": "set Flow Rise                = ---"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Mech RR",
+    "context": {
+      "parameter": "Mech RR",
+      "value": "--",
+      "unit": "/min",
+      "raw_command": "set Mech RR                  = -- (/min)"
+    },
+    "raw": "set Mech RR                  = -- (/min)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set PSV Backup Delay",
+    "context": {
+      "parameter": "PSV Backup Delay",
+      "value": "--",
+      "unit": "seconds",
+      "raw_command": "set PSV Backup Delay         = -- (seconds)"
+    },
+    "raw": "set PSV Backup Delay         = -- (seconds)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set EtCO2 Hi",
+    "context": {
+      "parameter": "EtCO2 Hi",
+      "value": "082",
+      "unit": "%*10",
+      "raw_command": "set EtCO2 Hi                 = 082 (%*10)"
+    },
+    "raw": "set EtCO2 Hi                 = 082 (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set EtCO2 Lo",
+    "context": {
+      "parameter": "EtCO2 Lo",
+      "value": "031",
+      "unit": "%*10",
+      "raw_command": "set EtCO2 Lo                 = 031 (%*10)"
+    },
+    "raw": "set EtCO2 Lo                 = 031 (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiCO2 Hi",
+    "context": {
+      "parameter": "FiCO2 Hi",
+      "value": "005",
+      "unit": "%*10",
+      "raw_command": "set FiCO2 Hi                 = 005 (%*10)"
+    },
+    "raw": "set FiCO2 Hi                 = 005 (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set EtAA Hi",
+    "context": {
+      "parameter": "EtAA Hi",
+      "value": "---",
+      "unit": "%*10",
+      "raw_command": "set EtAA Hi                  = --- (%*10)"
+    },
+    "raw": "set EtAA Hi                  = --- (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set EtAA Lo",
+    "context": {
+      "parameter": "EtAA Lo",
+      "value": "---",
+      "unit": "%*10",
+      "raw_command": "set EtAA Lo                  = --- (%*10)"
+    },
+    "raw": "set EtAA Lo                  = --- (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiAA Hi",
+    "context": {
+      "parameter": "FiAA Hi",
+      "value": "---",
+      "unit": "%*10",
+      "raw_command": "set FiAA Hi                  = --- (%*10)"
+    },
+    "raw": "set FiAA Hi                  = --- (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiAA Lo",
+    "context": {
+      "parameter": "FiAA Lo",
+      "value": "---",
+      "unit": "%*10",
+      "raw_command": "set FiAA Lo                  = --- (%*10)"
+    },
+    "raw": "set FiAA Lo                  = --- (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Ppeak Hi",
+    "context": {
+      "parameter": "Ppeak Hi",
+      "value": "---",
+      "unit": "cmH2O",
+      "raw_command": "set Ppeak Hi                 = --- (cmH2O)"
+    },
+    "raw": "set Ppeak Hi                 = --- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Ppeak Lo",
+    "context": {
+      "parameter": "Ppeak Lo",
+      "value": "---",
+      "unit": "cmH2O",
+      "raw_command": "set Ppeak Lo                 = --- (cmH2O)"
+    },
+    "raw": "set Ppeak Lo                 = --- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Fresh Gas Total Flow",
+    "context": {
+      "parameter": "Fresh Gas Total Flow",
+      "value": "0600",
+      "unit": "L/min*100",
+      "raw_command": "set Fresh Gas Total Flow     = 0600 (L/min*100)"
+    },
+    "raw": "set Fresh Gas Total Flow     = 0600 (L/min*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Balance Gas Type",
+    "context": {
+      "parameter": "Balance Gas Type",
+      "value": "a",
+      "unit": null,
+      "raw_command": "set Balance Gas Type         = a"
+    },
+    "raw": "set Balance Gas Type         = a"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set AA",
+    "context": {
+      "parameter": "AA",
+      "value": "---",
+      "unit": "%*10",
+      "raw_command": "set AA                       = --- (%*10)"
+    },
+    "raw": "set AA                       = --- (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Agent Type",
+    "context": {
+      "parameter": "Agent Type",
+      "value": "3",
+      "unit": null,
+      "raw_command": "set Agent Type               = 3"
+    },
+    "raw": "set Agent Type               = 3"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Flow Sensor Type",
+    "context": {
+      "parameter": "Flow Sensor Type",
+      "value": "i",
+      "unit": null,
+      "raw_command": "set Flow Sensor Type         = i"
+    },
+    "raw": "set Flow Sensor Type         = i"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Circuit Type",
+    "context": {
+      "parameter": "Circuit Type",
+      "value": "c",
+      "unit": null,
+      "raw_command": "set Circuit Type             = c"
+    },
+    "raw": "set Circuit Type             = c"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Gas Control Mode",
+    "context": {
+      "parameter": "Gas Control Mode",
+      "value": "f",
+      "unit": null,
+      "raw_command": "set Gas Control Mode         = f"
+    },
+    "raw": "set Gas Control Mode         = f"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Target FiO2",
+    "context": {
+      "parameter": "Target FiO2",
+      "value": "---",
+      "unit": "%",
+      "raw_command": "set Target FiO2              = --- (%)"
+    },
+    "raw": "set Target FiO2              = --- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Target FiAA",
+    "context": {
+      "parameter": "Target FiAA",
+      "value": "---",
+      "unit": "%*10",
+      "raw_command": "set Target FiAA              = --- (%*10)"
+    },
+    "raw": "set Target FiAA              = --- (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Target EtAA",
+    "context": {
+      "parameter": "Target EtAA",
+      "value": "---",
+      "unit": "%*10",
+      "raw_command": "set Target EtAA              = --- (%*10)"
+    },
+    "raw": "set Target EtAA              = --- (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Nebulizer Volume",
+    "context": {
+      "parameter": "Nebulizer Volume",
+      "value": "----",
+      "unit": "mL",
+      "raw_command": "set Nebulizer Volume         = ---- (mL)"
+    },
+    "raw": "set Nebulizer Volume         = ---- (mL)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:06.511000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:16.510000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:26.512000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:33.478000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient Type",
+    "context": {
+      "parameter": "Patient Type",
+      "value": "a",
+      "unit": null,
+      "raw_command": "set Patient Type             = a"
+    },
+    "raw": "set Patient Type             = a"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:33.478000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient Weight",
+    "context": {
+      "parameter": "Patient Weight",
+      "value": "061",
+      "unit": "kg",
+      "raw_command": "set Patient Weight           = 061 (kg)"
+    },
+    "raw": "set Patient Weight           = 061 (kg)"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:33.478000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:44.507000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x03"
+    },
+    "raw": "Data Status                  = 0x03"
+  },
+  {
+    "timestamp": "2026-04-22T11:38:54.507000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:39:04.506000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:39:14.510000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:39:24.509000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:39:34.508000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Plimit",
+    "context": {
+      "parameter": "Plimit",
+      "value": "045",
+      "unit": "cmH2O",
+      "raw_command": "set Plimit                   = 045 (cmH2O)"
+    },
+    "raw": "set Plimit                   = 045 (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:39:34.508000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:39:44.511000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:39:54.506000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:04.502000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:14.514000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:24.504000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Plimit",
+    "context": {
+      "parameter": "Plimit",
+      "value": "048",
+      "unit": "cmH2O",
+      "raw_command": "set Plimit                   = 048 (cmH2O)"
+    },
+    "raw": "set Plimit                   = 048 (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:24.504000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:34.503000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2",
+    "context": {
+      "parameter": "FiO2",
+      "value": "075",
+      "unit": "%",
+      "raw_command": "set FiO2                     = 075 (%)"
+    },
+    "raw": "set FiO2                     = 075 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:34.503000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Fresh Gas Total Flow",
+    "context": {
+      "parameter": "Fresh Gas Total Flow",
+      "value": "0050",
+      "unit": "L/min*100",
+      "raw_command": "set Fresh Gas Total Flow     = 0050 (L/min*100)"
+    },
+    "raw": "set Fresh Gas Total Flow     = 0050 (L/min*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:34.503000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Gas Control Mode",
+    "context": {
+      "parameter": "Gas Control Mode",
+      "value": "e",
+      "unit": null,
+      "raw_command": "set Gas Control Mode         = e"
+    },
+    "raw": "set Gas Control Mode         = e"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:34.503000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:44.504000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Fresh Gas Total Flow",
+    "context": {
+      "parameter": "Fresh Gas Total Flow",
+      "value": "0100",
+      "unit": "L/min*100",
+      "raw_command": "set Fresh Gas Total Flow     = 0100 (L/min*100)"
+    },
+    "raw": "set Fresh Gas Total Flow     = 0100 (L/min*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:44.504000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:54.501000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2",
+    "context": {
+      "parameter": "FiO2",
+      "value": "080",
+      "unit": "%",
+      "raw_command": "set FiO2                     = 080 (%)"
+    },
+    "raw": "set FiO2                     = 080 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:54.501000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Fresh Gas Total Flow",
+    "context": {
+      "parameter": "Fresh Gas Total Flow",
+      "value": "0600",
+      "unit": "L/min*100",
+      "raw_command": "set Fresh Gas Total Flow     = 0600 (L/min*100)"
+    },
+    "raw": "set Fresh Gas Total Flow     = 0600 (L/min*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:54.501000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Gas Control Mode",
+    "context": {
+      "parameter": "Gas Control Mode",
+      "value": "f",
+      "unit": null,
+      "raw_command": "set Gas Control Mode         = f"
+    },
+    "raw": "set Gas Control Mode         = f"
+  },
+  {
+    "timestamp": "2026-04-22T11:40:54.501000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:04.500000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TV",
+    "context": {
+      "parameter": "TV",
+      "value": "0600",
+      "unit": "mL",
+      "raw_command": "set TV                       = 0600 (mL)"
+    },
+    "raw": "set TV                       = 0600 (mL)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set InspPause",
+    "context": {
+      "parameter": "InspPause",
+      "value": "05",
+      "unit": "%",
+      "raw_command": "set InspPause                = 05 (%)"
+    },
+    "raw": "set InspPause                = 05 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set PEEP",
+    "context": {
+      "parameter": "PEEP",
+      "value": "06",
+      "unit": "cmH2O",
+      "raw_command": "set PEEP                     = 06 (cmH2O)"
+    },
+    "raw": "set PEEP                     = 06 (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Vent Mode",
+    "context": {
+      "parameter": "Vent Mode",
+      "value": "s",
+      "unit": null,
+      "raw_command": "set Vent Mode                = s"
+    },
+    "raw": "set Vent Mode                = s"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Psupp",
+    "context": {
+      "parameter": "Psupp",
+      "value": "11",
+      "unit": "cmH2O",
+      "raw_command": "set Psupp                    = 11 (cmH2O)"
+    },
+    "raw": "set Psupp                    = 11 (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Rise Rate",
+    "context": {
+      "parameter": "Rise Rate",
+      "value": "1--",
+      "unit": null,
+      "raw_command": "set Rise Rate                = 1--"
+    },
+    "raw": "set Rise Rate                = 1--"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Flow Trigger",
+    "context": {
+      "parameter": "Flow Trigger",
+      "value": "15",
+      "unit": "L/min*10",
+      "raw_command": "set Flow Trigger             = 15 (L/min*10)"
+    },
+    "raw": "set Flow Trigger             = 15 (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Trigger Window",
+    "context": {
+      "parameter": "Trigger Window",
+      "value": "80",
+      "unit": "%",
+      "raw_command": "set Trigger Window           = 80 (%)"
+    },
+    "raw": "set Trigger Window           = 80 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set End Flow",
+    "context": {
+      "parameter": "End Flow",
+      "value": "30",
+      "unit": "%",
+      "raw_command": "set End Flow                 = 30 (%)"
+    },
+    "raw": "set End Flow                 = 30 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Tinsp",
+    "context": {
+      "parameter": "Tinsp",
+      "value": "0012",
+      "unit": "seconds*10",
+      "raw_command": "set Tinsp                    = 0012 (seconds*10)"
+    },
+    "raw": "set Tinsp                    = 0012 (seconds*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Mech RR",
+    "context": {
+      "parameter": "Mech RR",
+      "value": "12",
+      "unit": "/min",
+      "raw_command": "set Mech RR                  = 12 (/min)"
+    },
+    "raw": "set Mech RR                  = 12 (/min)"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:07.055000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:09.019000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:19.530000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:29.530000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:39.527000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:49.526000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:41:59.535000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:09.525000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set MVexp Lo Alarm",
+    "context": {
+      "parameter": "MVexp Lo Alarm",
+      "value": "023",
+      "unit": "L/min*10",
+      "raw_command": "set MVexp Lo Alarm           = 023 (L/min*10)"
+    },
+    "raw": "set MVexp Lo Alarm           = 023 (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:09.525000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:19.524000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2 Lo Alarm",
+    "context": {
+      "parameter": "FiO2 Lo Alarm",
+      "value": "025",
+      "unit": "%",
+      "raw_command": "set FiO2 Lo Alarm            = 025 (%)"
+    },
+    "raw": "set FiO2 Lo Alarm            = 025 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:19.524000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set EtCO2 Lo",
+    "context": {
+      "parameter": "EtCO2 Lo",
+      "value": "034",
+      "unit": "%*10",
+      "raw_command": "set EtCO2 Lo                 = 034 (%*10)"
+    },
+    "raw": "set EtCO2 Lo                 = 034 (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:19.524000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x03"
+    },
+    "raw": "Data Status                  = 0x03"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:29.526000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TVexp Lo Alarm",
+    "context": {
+      "parameter": "TVexp Lo Alarm",
+      "value": "0000",
+      "unit": "mL/10",
+      "raw_command": "set TVexp Lo Alarm           = 0000 (mL/10)"
+    },
+    "raw": "set TVexp Lo Alarm           = 0000 (mL/10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:29.526000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2 Lo Alarm",
+    "context": {
+      "parameter": "FiO2 Lo Alarm",
+      "value": "019",
+      "unit": "%",
+      "raw_command": "set FiO2 Lo Alarm            = 019 (%)"
+    },
+    "raw": "set FiO2 Lo Alarm            = 019 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:29.526000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set RR Lo",
+    "context": {
+      "parameter": "RR Lo",
+      "value": "001",
+      "unit": "/min",
+      "raw_command": "set RR Lo                    = 001 (/min)"
+    },
+    "raw": "set RR Lo                    = 001 (/min)"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:29.526000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x03"
+    },
+    "raw": "Data Status                  = 0x03"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:39.526000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:49.523000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:59.525000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TVexp Hi Alarm",
+    "context": {
+      "parameter": "TVexp Hi Alarm",
+      "value": "0082",
+      "unit": "mL/10",
+      "raw_command": "set TVexp Hi Alarm           = 0082 (mL/10)"
+    },
+    "raw": "set TVexp Hi Alarm           = 0082 (mL/10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:42:59.525000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:09.522000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:19.522000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:29.522000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:39.522000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Apnea Delay",
+    "context": {
+      "parameter": "Apnea Delay",
+      "value": "28",
+      "unit": "seconds",
+      "raw_command": "set Apnea Delay              = 28 (seconds)"
+    },
+    "raw": "set Apnea Delay              = 28 (seconds)"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:39.522000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:49.520000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Plimit",
+    "context": {
+      "parameter": "Plimit",
+      "value": "040",
+      "unit": "cmH2O",
+      "raw_command": "set Plimit                   = 040 (cmH2O)"
+    },
+    "raw": "set Plimit                   = 040 (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:49.520000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set MVexp Lo Alarm",
+    "context": {
+      "parameter": "MVexp Lo Alarm",
+      "value": "020",
+      "unit": "L/min*10",
+      "raw_command": "set MVexp Lo Alarm           = 020 (L/min*10)"
+    },
+    "raw": "set MVexp Lo Alarm           = 020 (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:49.520000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TVexp Hi Alarm",
+    "context": {
+      "parameter": "TVexp Hi Alarm",
+      "value": "0100",
+      "unit": "mL/10",
+      "raw_command": "set TVexp Hi Alarm           = 0100 (mL/10)"
+    },
+    "raw": "set TVexp Hi Alarm           = 0100 (mL/10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:49.520000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TVexp Lo Alarm",
+    "context": {
+      "parameter": "TVexp Lo Alarm",
+      "value": "----",
+      "unit": "mL/10",
+      "raw_command": "set TVexp Lo Alarm           = ---- (mL/10)"
+    },
+    "raw": "set TVexp Lo Alarm           = ---- (mL/10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:49.520000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2 Lo Alarm",
+    "context": {
+      "parameter": "FiO2 Lo Alarm",
+      "value": "021",
+      "unit": "%",
+      "raw_command": "set FiO2 Lo Alarm            = 021 (%)"
+    },
+    "raw": "set FiO2 Lo Alarm            = 021 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:49.520000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set RR Lo",
+    "context": {
+      "parameter": "RR Lo",
+      "value": "---",
+      "unit": "/min",
+      "raw_command": "set RR Lo                    = --- (/min)"
+    },
+    "raw": "set RR Lo                    = --- (/min)"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:49.520000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set EtCO2 Lo",
+    "context": {
+      "parameter": "EtCO2 Lo",
+      "value": "031",
+      "unit": "%*10",
+      "raw_command": "set EtCO2 Lo                 = 031 (%*10)"
+    },
+    "raw": "set EtCO2 Lo                 = 031 (%*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:49.520000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:43:59.528000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:09.519000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:19.521000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2 Lo Alarm",
+    "context": {
+      "parameter": "FiO2 Lo Alarm",
+      "value": "019",
+      "unit": "%",
+      "raw_command": "set FiO2 Lo Alarm            = 019 (%)"
+    },
+    "raw": "set FiO2 Lo Alarm            = 019 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:19.521000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x03"
+    },
+    "raw": "Data Status                  = 0x03"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:29.521000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2",
+    "context": {
+      "parameter": "FiO2",
+      "value": "025",
+      "unit": "%",
+      "raw_command": "set FiO2                     = 025 (%)"
+    },
+    "raw": "set FiO2                     = 025 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:29.521000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Fresh Gas Total Flow",
+    "context": {
+      "parameter": "Fresh Gas Total Flow",
+      "value": "0050",
+      "unit": "L/min*100",
+      "raw_command": "set Fresh Gas Total Flow     = 0050 (L/min*100)"
+    },
+    "raw": "set Fresh Gas Total Flow     = 0050 (L/min*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:29.521000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Gas Control Mode",
+    "context": {
+      "parameter": "Gas Control Mode",
+      "value": "e",
+      "unit": null,
+      "raw_command": "set Gas Control Mode         = e"
+    },
+    "raw": "set Gas Control Mode         = e"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:29.521000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:39.517000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2",
+    "context": {
+      "parameter": "FiO2",
+      "value": "100",
+      "unit": "%",
+      "raw_command": "set FiO2                     = 100 (%)"
+    },
+    "raw": "set FiO2                     = 100 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:39.517000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:49.516000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Fresh Gas Total Flow",
+    "context": {
+      "parameter": "Fresh Gas Total Flow",
+      "value": "0100",
+      "unit": "L/min*100",
+      "raw_command": "set Fresh Gas Total Flow     = 0100 (L/min*100)"
+    },
+    "raw": "set Fresh Gas Total Flow     = 0100 (L/min*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:49.516000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:44:59.530000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x03"
+    },
+    "raw": "Data Status                  = 0x03"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:09.522000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Fresh Gas Total Flow",
+    "context": {
+      "parameter": "Fresh Gas Total Flow",
+      "value": "0600",
+      "unit": "L/min*100",
+      "raw_command": "set Fresh Gas Total Flow     = 0600 (L/min*100)"
+    },
+    "raw": "set Fresh Gas Total Flow     = 0600 (L/min*100)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:09.522000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Gas Control Mode",
+    "context": {
+      "parameter": "Gas Control Mode",
+      "value": "f",
+      "unit": null,
+      "raw_command": "set Gas Control Mode         = f"
+    },
+    "raw": "set Gas Control Mode         = f"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:09.522000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x03"
+    },
+    "raw": "Data Status                  = 0x03"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set TV",
+    "context": {
+      "parameter": "TV",
+      "value": "----",
+      "unit": "mL",
+      "raw_command": "set TV                       = ---- (mL)"
+    },
+    "raw": "set TV                       = ---- (mL)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set InspPause",
+    "context": {
+      "parameter": "InspPause",
+      "value": "--",
+      "unit": "%",
+      "raw_command": "set InspPause                = -- (%)"
+    },
+    "raw": "set InspPause                = -- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set PEEP",
+    "context": {
+      "parameter": "PEEP",
+      "value": "--",
+      "unit": "cmH2O",
+      "raw_command": "set PEEP                     = -- (cmH2O)"
+    },
+    "raw": "set PEEP                     = -- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Vent Mode",
+    "context": {
+      "parameter": "Vent Mode",
+      "value": "-",
+      "unit": null,
+      "raw_command": "set Vent Mode                = -"
+    },
+    "raw": "set Vent Mode                = -"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Psupp",
+    "context": {
+      "parameter": "Psupp",
+      "value": "--",
+      "unit": "cmH2O",
+      "raw_command": "set Psupp                    = -- (cmH2O)"
+    },
+    "raw": "set Psupp                    = -- (cmH2O)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Rise Rate",
+    "context": {
+      "parameter": "Rise Rate",
+      "value": "---",
+      "unit": null,
+      "raw_command": "set Rise Rate                = ---"
+    },
+    "raw": "set Rise Rate                = ---"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Flow Trigger",
+    "context": {
+      "parameter": "Flow Trigger",
+      "value": "--",
+      "unit": "L/min*10",
+      "raw_command": "set Flow Trigger             = -- (L/min*10)"
+    },
+    "raw": "set Flow Trigger             = -- (L/min*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Trigger Window",
+    "context": {
+      "parameter": "Trigger Window",
+      "value": "--",
+      "unit": "%",
+      "raw_command": "set Trigger Window           = -- (%)"
+    },
+    "raw": "set Trigger Window           = -- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set End Flow",
+    "context": {
+      "parameter": "End Flow",
+      "value": "--",
+      "unit": "%",
+      "raw_command": "set End Flow                 = -- (%)"
+    },
+    "raw": "set End Flow                 = -- (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Tinsp",
+    "context": {
+      "parameter": "Tinsp",
+      "value": "----",
+      "unit": "seconds*10",
+      "raw_command": "set Tinsp                    = ---- (seconds*10)"
+    },
+    "raw": "set Tinsp                    = ---- (seconds*10)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "RESP",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Mech RR",
+    "context": {
+      "parameter": "Mech RR",
+      "value": "--",
+      "unit": "/min",
+      "raw_command": "set Mech RR                  = -- (/min)"
+    },
+    "raw": "set Mech RR                  = -- (/min)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:18.292000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:24.614000",
+    "source": "DO_COM",
+    "subsystem": "GAS",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set FiO2 Lo Alarm",
+    "context": {
+      "parameter": "FiO2 Lo Alarm",
+      "value": "021",
+      "unit": "%",
+      "raw_command": "set FiO2 Lo Alarm            = 021 (%)"
+    },
+    "raw": "set FiO2 Lo Alarm            = 021 (%)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:24.614000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Apnea Delay",
+    "context": {
+      "parameter": "Apnea Delay",
+      "value": "30",
+      "unit": "seconds",
+      "raw_command": "set Apnea Delay              = 30 (seconds)"
+    },
+    "raw": "set Apnea Delay              = 30 (seconds)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:24.614000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient Type",
+    "context": {
+      "parameter": "Patient Type",
+      "value": "-",
+      "unit": null,
+      "raw_command": "set Patient Type             = -"
+    },
+    "raw": "set Patient Type             = -"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:24.614000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x03"
+    },
+    "raw": "Data Status                  = 0x03"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:35.406000",
+    "source": "DO_COM",
+    "subsystem": "SYSTEM",
+    "severity": "INFO",
+    "event_type": "COMMAND",
+    "message": "Set Patient Weight",
+    "context": {
+      "parameter": "Patient Weight",
+      "value": "---",
+      "unit": "kg",
+      "raw_command": "set Patient Weight           = --- (kg)"
+    },
+    "raw": "set Patient Weight           = --- (kg)"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:35.406000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:40.220000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
+  },
+  {
+    "timestamp": "2026-04-22T11:45:50.489000",
+    "source": "DO_COM",
+    "subsystem": "PROTOCOL",
+    "severity": "INFO",
+    "event_type": "STATUS",
+    "message": "Data status update",
+    "context": {
+      "status": "0x00"
+    },
+    "raw": "Data Status                  = 0x00"
   }
 ]
