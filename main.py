@@ -21,8 +21,9 @@ def main():
 
     sbx_events = normalize_sbx_log("sbxLog.xml", sbx_base_time)
     print("SBX events in main():", len(sbx_events))
-
-    ohmeda_events = normalize_ohmeda_log("DoComLog.txt")
+    
+    base_date = sbx_base_time.strftime("%Y-%m-%d")
+    ohmeda_events = normalize_ohmeda_log("DoComLog.txt", base_date)
     print("Ohmeda events in main():", len(ohmeda_events))
 
     # ---------- Phase 2: Merge ----------
