@@ -1,0 +1,3785 @@
+[
+  {
+    "time": "2026-04-22T00:30:16",
+    "event": "PowerControllerShutdownRequest: shutdownOptions: 2",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:30:17",
+    "event": "Power-up state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:30:22",
+    "event": "Calibration state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:30:37",
+    "event": "Menu Opened: User Calibration",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:30:38",
+    "event": "KeyPressed on :   Closed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:30:51",
+    "event": "Close button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:30:51",
+    "event": "Checkout state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:30:51",
+    "event": "Menu Opened: Checkout",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:31:15",
+    "event": "Bypass button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:31:15",
+    "event": "Start Case state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:31:15",
+    "event": "Menu Opened: Start Case",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:31:17",
+    "event": "Start Anesthesia button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:31:17",
+    "event": "Start Case state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:31:17",
+    "event": "Therapy state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:31:17",
+    "event": "DEBUG-SystemController: setRandRStatusLocation in Therapy ==>  Request status is true: 211  errocode:  ",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T00:31:17",
+    "event": "CO2 Apnea FSM Transition to STANDBY state",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:32:35",
+    "event": "System Setup button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:32:35",
+    "event": "Menu Opened: System Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:32:37",
+    "event": "Start Case button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:32:37",
+    "event": "Menu Opened: End Case",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:32:38",
+    "event": "End Case Now button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:32:38",
+    "event": "Therapy state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:32:38",
+    "event": "Standby state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:32:39",
+    "event": "System Setup button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:32:39",
+    "event": "Menu Opened: System Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:32:40",
+    "event": "Service button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:34:02",
+    "event": "LoginCancelButton button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:34:04",
+    "event": "Service button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:34:14",
+    "event": "Standby state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:34:14",
+    "event": "Service state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:34:44",
+    "event": "Stop previous patient case breath logs copying; start case now.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:35:03",
+    "event": "Reset button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:37:19",
+    "event": "Received shutdown notification.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:37:19",
+    "event": "Shutdown state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:37:19",
+    "event": "PopupMessageBoxController::slotSystemStateChanged System enter into shutdown state",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:38:35",
+    "event": "PowerControllerShutdownRequest: shutdownOptions: 2",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:38:36",
+    "event": "Power-up state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:38:40",
+    "event": "Calibration state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:38:54",
+    "event": "Menu Opened: User Calibration",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:38:56",
+    "event": "KeyPressed on :   Closed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:40:10",
+    "event": "Close button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:40:10",
+    "event": "Checkout state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:40:10",
+    "event": "Menu Opened: Checkout",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:40:19",
+    "event": "Cancel button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:41:23",
+    "event": "Bypass button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:41:23",
+    "event": "Start Case state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:41:23",
+    "event": "Menu Opened: Start Case",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:41:24",
+    "event": "Start Anesthesia button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:41:24",
+    "event": "Start Case state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:41:24",
+    "event": "Therapy state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:41:24",
+    "event": "DEBUG-SystemController: setRandRStatusLocation in Therapy ==>  Request status is true: 211  errocode:  ",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T00:41:24",
+    "event": "CO2 Apnea FSM Transition to STANDBY state",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:42:34",
+    "event": "KeyPressed on : Menu: VCV button is pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:42:34",
+    "event": "Menu Opened: Vent",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:42:36",
+    "event": " PCV button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:42:37",
+    "event": "QuickKey: Pinsp setting changed from PCV to 17",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:42:43",
+    "event": "KeyPressed on : Quick Key: PCV PInsp - 17",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:42:45",
+    "event": "QuickKey: Pinsp setting changed from 17 to 20",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:42:46",
+    "event": "KeyPressed on : Quick Key: PCV RR - 12",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T00:42:47",
+    "event": "QuickKey: RR setting changed from 12 to 15",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:42:48",
+    "event": "KeyPressed on : Quick Key: PCV IE - 1:2",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:42:50",
+    "event": "QuickKey: I:E setting changed from 1:2 to 1:2.3",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:42:50",
+    "event": "KeyPressed on : Quick Key: PCV PEEP - Off",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T00:42:52",
+    "event": "QuickKey: PEEP setting changed from Off to 6",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:42:52",
+    "event": "KeyPressed on : Quick Key: PCV Pmax - 40",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:42:54",
+    "event": "QuickKey: Pmax setting changed from 40 to 43",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:02",
+    "event": "KeyPressed on : Quick Key: PCV Pmax - 43",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:04",
+    "event": "QuickKey: Pmax setting changed from 43 to 41",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:05",
+    "event": "KeyPressed on : Menu: PCV button is pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:05",
+    "event": "Menu Opened: Vent",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:06",
+    "event": " PCV-VG button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:07",
+    "event": "QuickKey: TV setting changed from 41 to 675",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:09",
+    "event": "KeyPressed on : Quick Key: PCV_VG IE - 1:2.3",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:10",
+    "event": "QuickKey: I:E setting changed from 1:2.3 to 1:2.5",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:11",
+    "event": "KeyPressed on : Quick Key: PCV_VG TV - 675",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:12",
+    "event": "QuickKey: TV setting changed from 675 to 600",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:13",
+    "event": "KeyPressed on : Quick Key: PCV_VG RR - 15",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T00:43:15",
+    "event": "QuickKey: RR setting changed from 15 to 18",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:16",
+    "event": "KeyPressed on : Quick Key: PCV_VG Pmax - 41",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:18",
+    "event": "QuickKey: Pmax setting changed from 41 to 44",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:19",
+    "event": "KeyPressed on : Menu: PCV-VG button is pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:19",
+    "event": "Menu Opened: Vent",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:20",
+    "event": " SIMV VCV button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:22",
+    "event": "QuickKey: TV setting changed from 6 to 600",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:24",
+    "event": "KeyPressed on : Quick Key: SIMV_VCV mechRR - 18",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T00:43:25",
+    "event": "QuickKey: RR setting changed from 18 to 20",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:26",
+    "event": "KeyPressed on : Quick Key: SIMV_VCV FlowTrigger - 2.0",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:27",
+    "event": "QuickKey: Flow Trigger setting changed from 2.0 to 3.5",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:28",
+    "event": "KeyPressed on : Quick Key: SIMV_VCV PEEP - 6",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T00:43:29",
+    "event": "QuickKey: PEEP setting changed from 6 to 9",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:34",
+    "event": "KeyPressed on : Et Control Button Pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:34",
+    "event": "Menu Opened: Et Control",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:34",
+    "event": "KeyPressed on : ETControl Menu Opened",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:37",
+    "event": "KeyPressed on : ETControl Menu : On Button Clicked",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:44",
+    "event": "KeyPressed on : Et O2 Presets Opened",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:44",
+    "event": "KeyPressed on : Et O2 Quick Key Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:45",
+    "event": "KeyPressed on : Et O2 Presets Closed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:45",
+    "event": "QuickKey: Et O2 setting changed from 25 to 35",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:49",
+    "event": "KeyPressed on : Min Flow Presets Opened",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:49",
+    "event": "KeyPressed on : Min. Flow Quick Key Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:49",
+    "event": "KeyPressed on : Min Flow Presets Closed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:43:51",
+    "event": "QuickKey: Min. Flow setting changed from 0.50 to 0.95",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:43:57",
+    "event": "KeyPressed on : Menu: SIMV VCV button is pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:43:57",
+    "event": "Menu Opened: Vent",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:00",
+    "event": " VCV button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:03",
+    "event": "QuickKey: TV setting changed from 9 to 600",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:44:11",
+    "event": "KeyPressed on : Et Control Button Pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:11",
+    "event": "Menu Opened: Et Control",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:13",
+    "event": "KeyPressed on : Min. Flow Quick Key Deselected.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:44:13",
+    "event": "KeyPressed on : ETControl Menu : Off Button Clicked",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:22",
+    "event": "Spirometry button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:22",
+    "event": "Menu Opened: Spirometry",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:36",
+    "event": "Spirometry CloseIcon button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:38",
+    "event": "Spirometry button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:38",
+    "event": "Menu Opened: Spirometry",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:44:57",
+    "event": "Menu Opened: Alarm Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:44:58",
+    "event": "Menu Opened: Alarm Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:44:59",
+    "event": "Menu Opened: Alarm Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:08",
+    "event": "KeyPressed on : Quick Key: VCV TV - 600",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:46:09",
+    "event": "QuickKey: TV setting changed from 600 to 650",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:10",
+    "event": "KeyPressed on : Quick Key: VCV RR - 18",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T00:46:11",
+    "event": "QuickKey: RR setting changed from 18 to 19",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:16",
+    "event": "Spirometry button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:46:16",
+    "event": "Menu Opened: Spirometry",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:46:19",
+    "event": "Spirometry CloseIcon button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:46:30",
+    "event": "System Setup button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:46:30",
+    "event": "Menu Opened: System Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:46:32",
+    "event": "Alarm Setup button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:32",
+    "event": "Menu Opened: Alarm Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:35",
+    "event": "MV(Low Limit); New Numeric Value: 2.3",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:37",
+    "event": "MV(High Limit); New Numeric Value: 11.5",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:39",
+    "event": "EtCO2(Low Limit); New Numeric Value: 3.4",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:42",
+    "event": "EtCO2(High Limit); New Numeric Value: 8.4",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:47",
+    "event": "FiO2(High Limit); New Numeric Value: 99",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:49",
+    "event": "FiO2(Low Limit); New Numeric Value: 23",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:57",
+    "event": "FiO2(High Limit); New Numeric Value: 100",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:46:59",
+    "event": "FiO2(High Limit); New Numeric Value: Off",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:07",
+    "event": "FiCO2(High Limit); New Numeric Value: 0.9",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:09",
+    "event": "MAC Age(High Limit); New Numeric Value: Off",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:11",
+    "event": "MAC Age(High Limit); New Numeric Value: 2.8",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:14",
+    "event": "EtO2(Low Limit); New Numeric Value: 3",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:16",
+    "event": "EtO2(High Limit); New Numeric Value: 98",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:18",
+    "event": "RR(High Limit); New Numeric Value: 99",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:20",
+    "event": "RR(Low Limit); New Numeric Value: 3",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:23",
+    "event": "TV(High Limit); New Numeric Value: 940",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:25",
+    "event": "TV(Low Limit); New Numeric Value: 3",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:31",
+    "event": "EtSev(High Limit); New Numeric Value: 9.8",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:33",
+    "event": "EtSev(Low Limit); New Numeric Value: 0.1",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:35",
+    "event": "EtIso(Low Limit); New Numeric Value: 0.2",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:38",
+    "event": "EtIso(High Limit); New Numeric Value: 6.8",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:44",
+    "event": "KeyPressed on : Menu: VCV button is pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:47:44",
+    "event": "Menu Opened: Vent",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:47:45",
+    "event": " PCV button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:47:46",
+    "event": "QuickKey: Pinsp setting changed from 19 to 20",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T00:47:52",
+    "event": "Start Case button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:47:52",
+    "event": "Menu Opened: End Case",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:47:53",
+    "event": "End Case Now button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T00:47:54",
+    "event": "Therapy state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T00:47:54",
+    "event": "Standby state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T01:03:49",
+    "event": "Standby state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T01:03:49",
+    "event": "Checkout state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T01:03:49",
+    "event": "Menu Opened: Checkout",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:03:54",
+    "event": "Cancel button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:15",
+    "event": "Start Case button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:16",
+    "event": "Bypass button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:16",
+    "event": "Start Case state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T01:04:16",
+    "event": "Menu Opened: Start Case",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:17",
+    "event": "Start Anesthesia button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:18",
+    "event": "Start Case state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T01:04:18",
+    "event": "Therapy state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T01:04:18",
+    "event": "DEBUG-SystemController: setRandRStatusLocation in Therapy ==>  Request status is true: 211  errocode:  ",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T01:04:18",
+    "event": "CO2 Apnea FSM Transition to STANDBY state",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T01:04:20",
+    "event": "Yes button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:21",
+    "event": "Start Case button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:21",
+    "event": "Menu Opened: End Case",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:22",
+    "event": "End Case Now button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T01:04:22",
+    "event": "Therapy state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T01:04:22",
+    "event": "Standby state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:38:26",
+    "event": "Start Case button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:38:26",
+    "event": "Standby state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:38:26",
+    "event": "Checkout state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:38:26",
+    "event": "Menu Opened: Checkout",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:38:31",
+    "event": "Bypass button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:38:31",
+    "event": "Start Case state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:38:31",
+    "event": "Menu Opened: Start Case",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:38:34",
+    "event": "Start Anesthesia button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:38:34",
+    "event": "Start Case state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:38:34",
+    "event": "Therapy state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:38:34",
+    "event": "DEBUG-SystemController: setRandRStatusLocation in Therapy ==>  Request status is true: 211  errocode:  ",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T11:38:34",
+    "event": "CO2 Apnea FSM Transition to STANDBY state",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:38:47",
+    "event": "KeyPressed on : Menu: VCV button is pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:38:47",
+    "event": "Menu Opened: Vent",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:38:48",
+    "event": " PCV button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:38:52",
+    "event": "QuickKey: Pinsp setting changed from 5 to 5",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:38:57",
+    "event": "KeyPressed on : Quick Key: PCV PInsp - 5",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:39:03",
+    "event": "QuickKey: Pinsp setting changed from 5 to 10",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:39:04",
+    "event": "KeyPressed on : Quick Key: PCV RR - 12",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T11:39:08",
+    "event": "QuickKey: RR setting changed from 12 to 16",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:39:10",
+    "event": "KeyPressed on : Quick Key: PCV IE - 1:2",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:39:15",
+    "event": "QuickKey: I:E setting changed from 1:2 to 1:2.1",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:39:16",
+    "event": "KeyPressed on : Quick Key: PCV PEEP - Off",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T11:39:19",
+    "event": "QuickKey: PEEP setting changed from Off to 4",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:39:20",
+    "event": "KeyPressed on : Quick Key: PCV Pmax - 40",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:39:22",
+    "event": "QuickKey: Pmax setting changed from 40 to 45",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:39:24",
+    "event": "KeyPressed on : Menu Opened: More Settings: PCV",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:24",
+    "event": "Menu Opened: More Settings",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:26",
+    "event": "MoreSettingsMenu button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:27",
+    "event": "MoreSettingsMenu button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:30",
+    "event": "MoreSettingsMenu button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:30",
+    "event": "Rise Rate; New Numeric Value: 1",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:39:32",
+    "event": "More Menu Close button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:36",
+    "event": "KeyPressed on : Menu: PCV button is pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:36",
+    "event": "Menu Opened: Vent",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:40",
+    "event": " SIMV VCV button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:39:46",
+    "event": "QuickKey: TV setting changed from  to 600",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:39:48",
+    "event": "KeyPressed on : Quick Key: SIMV_VCV mechRR - 16",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T11:39:52",
+    "event": "QuickKey: RR setting changed from 16 to 12",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:39:54",
+    "event": "KeyPressed on : Quick Key: SIMV_VCV FlowTrigger - 2.0",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:39:57",
+    "event": "QuickKey: Flow Trigger setting changed from 2.0 to 1.5",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:39:58",
+    "event": "KeyPressed on : Quick Key: SIMV_VCV Psupport - 10",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:01",
+    "event": "QuickKey: Psupport setting changed from 10 to 11",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:40:02",
+    "event": "KeyPressed on : Quick Key: SIMV_VCV PEEP - 4",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "POTENTIAL_DEFECT",
+    "reason": "Configuration changes must be reflected in Do-Com",
+    "rule_id": "DEF_DOCOM_001"
+  },
+  {
+    "time": "2026-04-22T11:40:04",
+    "event": "QuickKey: PEEP setting changed from 4 to 6",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:40:06",
+    "event": "KeyPressed on : Menu Opened: More Settings: SIMV VCV",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:06",
+    "event": "Menu Opened: More Settings",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:13",
+    "event": "Pmax; New Numeric Value: 48",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:15",
+    "event": "More Menu Close button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:21",
+    "event": "KeyPressed on : Et Control Button Pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:21",
+    "event": "Menu Opened: Et Control",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:23",
+    "event": "KeyPressed on : ETControl Menu : On Button Clicked",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:28",
+    "event": "KeyPressed on : Et O2 Presets Opened",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:28",
+    "event": "KeyPressed on : Et O2 Quick Key Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:30",
+    "event": "KeyPressed on : Preset :  Et O2 Target %: 75 Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:30",
+    "event": "KeyPressed on : Et O2 Presets Closed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:33",
+    "event": "KeyPressed on : Min Flow Presets Opened",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:33",
+    "event": "KeyPressed on : Min. Flow Quick Key Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:35",
+    "event": "KeyPressed on : Preset :  Min. Flow l/min: 1 Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:35",
+    "event": "KeyPressed on : Min Flow Presets Closed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:48",
+    "event": "KeyPressed on : Et Control Button Pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:48",
+    "event": "Menu Opened: Et Control",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:49",
+    "event": "KeyPressed on : Min. Flow Quick Key Deselected.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:40:49",
+    "event": "KeyPressed on : ETControl Menu : Off Button Clicked",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:54",
+    "event": "Spirometry button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:40:54",
+    "event": "Menu Opened: Spirometry",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:41:53",
+    "event": "System Setup button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:41:53",
+    "event": "Menu Opened: System Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:41:55",
+    "event": "Alarms On/Off button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:41:55",
+    "event": "Menu Opened: Auto Limits",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:41:56",
+    "event": "Alarm Setup button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:41:56",
+    "event": "Menu Opened: Alarm Setup",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:05",
+    "event": "MV(Low Limit); New Numeric Value: 2.3",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:08",
+    "event": "EtCO2(Low Limit); New Numeric Value: 3.4",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:12",
+    "event": "FiO2(Low Limit); New Numeric Value: 25",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:18",
+    "event": "FiO2(Low Limit); New Numeric Value: 19",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:25",
+    "event": "TV(Low Limit); New Numeric Value: 1",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:27",
+    "event": "RR(Low Limit); New Numeric Value: 1",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:32",
+    "event": "EtO2(Low Limit); New Numeric Value: 1",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:35",
+    "event": "MAC Age(Low Limit); New Numeric Value: 0.4",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:49",
+    "event": "TV(High Limit); New Numeric Value: 820",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:55",
+    "event": "EtSev(Low Limit); New Numeric Value: 0.2",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:42:58",
+    "event": "EtSev(High Limit); New Numeric Value: 9.8",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:43:03",
+    "event": "EtDes(Low Limit); New Numeric Value: 0.2",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:43:06",
+    "event": "EtDes(High Limit); New Numeric Value: 19.9",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:43:23",
+    "event": "Alarm Volume; New Numeric Value: 4",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:43:28",
+    "event": "Apnea Delay; New Numeric Value: 28",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:43:44",
+    "event": "Change to Default Limits button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:43:47",
+    "event": "Change to Default Limits button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:43:49",
+    "event": "Change to Default Limits button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:43:49",
+    "event": "Change to Default Limits button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:44:09",
+    "event": "FiO2(Low Limit); New Numeric Value: 22",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:44:13",
+    "event": "FiO2(Low Limit); New Numeric Value: 19",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not export UI alarm or limit configuration",
+    "rule_id": "EXP_HL7_001"
+  },
+  {
+    "time": "2026-04-22T11:44:22",
+    "event": "KeyPressed on : Et Control Button Pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:44:22",
+    "event": "Menu Opened: Et Control",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:44:25",
+    "event": "KeyPressed on : ETControl Menu : On Button Clicked",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:44:30",
+    "event": "KeyPressed on : Et O2 Presets Opened",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:44:31",
+    "event": "KeyPressed on : Et O2 Quick Key Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:44:34",
+    "event": "KeyPressed on : Preset :  Et O2 Target %: 100 Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:44:34",
+    "event": "KeyPressed on : Et O2 Presets Closed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:44:36",
+    "event": "KeyPressed on : Min Flow Presets Opened",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:44:36",
+    "event": "KeyPressed on : Min. Flow Quick Key Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:44:38",
+    "event": "KeyPressed on : Preset :  Min. Flow l/min: 1 Selected",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:44:38",
+    "event": "KeyPressed on : Min Flow Presets Closed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:45:02",
+    "event": "KeyPressed on : Et Control Button Pressed",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:45:02",
+    "event": "Menu Opened: Et Control",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:45:04",
+    "event": "KeyPressed on : Min. Flow Quick Key Deselected.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:45:04",
+    "event": "KeyPressed on : ETControl Menu : Off Button Clicked",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:45:21",
+    "event": "Start Case button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:45:21",
+    "event": "Menu Opened: End Case",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:45:22",
+    "event": "End Case Now button is pressed.",
+    "type": "USER_ACTION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "EXPECTED_MISSING",
+    "reason": "HL7 does not reflect UI navigation events",
+    "rule_id": "EXP_HL7_002"
+  },
+  {
+    "time": "2026-04-22T11:45:22",
+    "event": "Therapy state exited.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  },
+  {
+    "time": "2026-04-22T11:45:22",
+    "event": "Standby state entered.",
+    "type": "STATE_TRANSITION",
+    "missing_in": [
+      "SBX",
+      "DOCOM",
+      "HL7"
+    ],
+    "classification": "REVIEW_REQUIRED",
+    "reason": "No matching classification rule",
+    "rule_id": "REVIEW_001"
+  }
+]

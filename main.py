@@ -1,3 +1,7 @@
+# This is the main entry point for the log normalization and correlation process.
+# It orchestrates the normalization of different log types and saves the combined output.
+# After running this, you can run analysis/correlation_engine.py to perform correlation and save results to CSV.
+#this is step 1)
 from datetime import datetime
 import json
 from dataclasses import asdict

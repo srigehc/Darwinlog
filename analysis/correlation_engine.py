@@ -1,3 +1,5 @@
+# after running main.py to generate normalized_logs.json, 
+# Run this script to correlate and save results to correlation_table.csv  (this is step 2))
 from datetime import datetime, timedelta
 import json
 import csv

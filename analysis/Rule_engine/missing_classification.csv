@@ -1,0 +1,292 @@
+time,event,type,missing_in,classification,reason,rule_id
+2026-04-22T00:30:16,PowerControllerShutdownRequest: shutdownOptions: 2,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:30:17,Power-up state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:30:22,Calibration state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:30:37,Menu Opened: User Calibration,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:30:38,KeyPressed on :   Closed,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:30:51,Close button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:30:51,Checkout state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:30:51,Menu Opened: Checkout,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:31:15,Bypass button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:31:15,Start Case state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:31:15,Menu Opened: Start Case,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:31:17,Start Anesthesia button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:31:17,Start Case state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:31:17,Therapy state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:31:17,DEBUG-SystemController: setRandRStatusLocation in Therapy ==>  Request status is true: 211  errocode:  ,STATE_TRANSITION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T00:31:17,CO2 Apnea FSM Transition to STANDBY state,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:32:35,System Setup button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:32:35,Menu Opened: System Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:32:37,Start Case button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:32:37,Menu Opened: End Case,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:32:38,End Case Now button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:32:38,Therapy state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:32:38,Standby state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:32:39,System Setup button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:32:39,Menu Opened: System Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:32:40,Service button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:34:02,LoginCancelButton button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:34:04,Service button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:34:14,Standby state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:34:14,Service state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:34:44,Stop previous patient case breath logs copying; start case now.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:35:03,Reset button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:37:19,Received shutdown notification.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:37:19,Shutdown state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:37:19,PopupMessageBoxController::slotSystemStateChanged System enter into shutdown state,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:38:35,PowerControllerShutdownRequest: shutdownOptions: 2,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:38:36,Power-up state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:38:40,Calibration state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:38:54,Menu Opened: User Calibration,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:38:56,KeyPressed on :   Closed,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:40:10,Close button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:40:10,Checkout state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:40:10,Menu Opened: Checkout,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:40:19,Cancel button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:41:23,Bypass button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:41:23,Start Case state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:41:23,Menu Opened: Start Case,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:41:24,Start Anesthesia button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:41:24,Start Case state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:41:24,Therapy state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:41:24,DEBUG-SystemController: setRandRStatusLocation in Therapy ==>  Request status is true: 211  errocode:  ,STATE_TRANSITION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T00:41:24,CO2 Apnea FSM Transition to STANDBY state,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:42:34,KeyPressed on : Menu: VCV button is pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:42:34,Menu Opened: Vent,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:42:36, PCV button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:42:37,QuickKey: Pinsp setting changed from PCV to 17,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:42:43,KeyPressed on : Quick Key: PCV PInsp - 17,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:42:45,QuickKey: Pinsp setting changed from 17 to 20,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:42:46,KeyPressed on : Quick Key: PCV RR - 12,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T00:42:47,QuickKey: RR setting changed from 12 to 15,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:42:48,KeyPressed on : Quick Key: PCV IE - 1:2,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:42:50,QuickKey: I:E setting changed from 1:2 to 1:2.3,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:42:50,KeyPressed on : Quick Key: PCV PEEP - Off,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T00:42:52,QuickKey: PEEP setting changed from Off to 6,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:42:52,KeyPressed on : Quick Key: PCV Pmax - 40,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:42:54,QuickKey: Pmax setting changed from 40 to 43,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:02,KeyPressed on : Quick Key: PCV Pmax - 43,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:04,QuickKey: Pmax setting changed from 43 to 41,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:05,KeyPressed on : Menu: PCV button is pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:05,Menu Opened: Vent,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:06, PCV-VG button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:07,QuickKey: TV setting changed from 41 to 675,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:09,KeyPressed on : Quick Key: PCV_VG IE - 1:2.3,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:10,QuickKey: I:E setting changed from 1:2.3 to 1:2.5,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:11,KeyPressed on : Quick Key: PCV_VG TV - 675,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:12,QuickKey: TV setting changed from 675 to 600,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:13,KeyPressed on : Quick Key: PCV_VG RR - 15,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T00:43:15,QuickKey: RR setting changed from 15 to 18,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:16,KeyPressed on : Quick Key: PCV_VG Pmax - 41,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:18,QuickKey: Pmax setting changed from 41 to 44,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:19,KeyPressed on : Menu: PCV-VG button is pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:19,Menu Opened: Vent,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:20, SIMV VCV button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:22,QuickKey: TV setting changed from 6 to 600,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:24,KeyPressed on : Quick Key: SIMV_VCV mechRR - 18,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T00:43:25,QuickKey: RR setting changed from 18 to 20,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:26,KeyPressed on : Quick Key: SIMV_VCV FlowTrigger - 2.0,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:27,QuickKey: Flow Trigger setting changed from 2.0 to 3.5,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:28,KeyPressed on : Quick Key: SIMV_VCV PEEP - 6,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T00:43:29,QuickKey: PEEP setting changed from 6 to 9,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:34,KeyPressed on : Et Control Button Pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:34,Menu Opened: Et Control,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:34,KeyPressed on : ETControl Menu Opened,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:37,KeyPressed on : ETControl Menu : On Button Clicked,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:44,KeyPressed on : Et O2 Presets Opened,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:44,KeyPressed on : Et O2 Quick Key Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:45,KeyPressed on : Et O2 Presets Closed,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:45,QuickKey: Et O2 setting changed from 25 to 35,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:49,KeyPressed on : Min Flow Presets Opened,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:49,KeyPressed on : Min. Flow Quick Key Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:49,KeyPressed on : Min Flow Presets Closed,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:43:51,QuickKey: Min. Flow setting changed from 0.50 to 0.95,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:43:57,KeyPressed on : Menu: SIMV VCV button is pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:43:57,Menu Opened: Vent,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:00, VCV button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:03,QuickKey: TV setting changed from 9 to 600,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:44:11,KeyPressed on : Et Control Button Pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:11,Menu Opened: Et Control,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:13,KeyPressed on : Min. Flow Quick Key Deselected.,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:44:13,KeyPressed on : ETControl Menu : Off Button Clicked,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:22,Spirometry button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:22,Menu Opened: Spirometry,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:36,Spirometry CloseIcon button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:38,Spirometry button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:38,Menu Opened: Spirometry,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:44:57,Menu Opened: Alarm Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:44:58,Menu Opened: Alarm Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:44:59,Menu Opened: Alarm Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:08,KeyPressed on : Quick Key: VCV TV - 600,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:46:09,QuickKey: TV setting changed from 600 to 650,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:10,KeyPressed on : Quick Key: VCV RR - 18,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T00:46:11,QuickKey: RR setting changed from 18 to 19,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:16,Spirometry button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:46:16,Menu Opened: Spirometry,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:46:19,Spirometry CloseIcon button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:46:30,System Setup button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:46:30,Menu Opened: System Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:46:32,Alarm Setup button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:32,Menu Opened: Alarm Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:35,MV(Low Limit); New Numeric Value: 2.3,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:37,MV(High Limit); New Numeric Value: 11.5,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:39,EtCO2(Low Limit); New Numeric Value: 3.4,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:42,EtCO2(High Limit); New Numeric Value: 8.4,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:47,FiO2(High Limit); New Numeric Value: 99,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:49,FiO2(Low Limit); New Numeric Value: 23,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:57,FiO2(High Limit); New Numeric Value: 100,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:46:59,FiO2(High Limit); New Numeric Value: Off,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:07,FiCO2(High Limit); New Numeric Value: 0.9,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:09,MAC Age(High Limit); New Numeric Value: Off,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:11,MAC Age(High Limit); New Numeric Value: 2.8,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:14,EtO2(Low Limit); New Numeric Value: 3,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:16,EtO2(High Limit); New Numeric Value: 98,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:18,RR(High Limit); New Numeric Value: 99,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:20,RR(Low Limit); New Numeric Value: 3,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:23,TV(High Limit); New Numeric Value: 940,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:25,TV(Low Limit); New Numeric Value: 3,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:31,EtSev(High Limit); New Numeric Value: 9.8,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:33,EtSev(Low Limit); New Numeric Value: 0.1,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:35,EtIso(Low Limit); New Numeric Value: 0.2,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:38,EtIso(High Limit); New Numeric Value: 6.8,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:44,KeyPressed on : Menu: VCV button is pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:47:44,Menu Opened: Vent,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:47:45, PCV button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:47:46,QuickKey: Pinsp setting changed from 19 to 20,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T00:47:52,Start Case button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:47:52,Menu Opened: End Case,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:47:53,End Case Now button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T00:47:54,Therapy state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T00:47:54,Standby state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T01:03:49,Standby state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T01:03:49,Checkout state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T01:03:49,Menu Opened: Checkout,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:03:54,Cancel button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:15,Start Case button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:16,Bypass button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:16,Start Case state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T01:04:16,Menu Opened: Start Case,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:17,Start Anesthesia button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:18,Start Case state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T01:04:18,Therapy state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T01:04:18,DEBUG-SystemController: setRandRStatusLocation in Therapy ==>  Request status is true: 211  errocode:  ,STATE_TRANSITION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T01:04:18,CO2 Apnea FSM Transition to STANDBY state,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T01:04:20,Yes button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:21,Start Case button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:21,Menu Opened: End Case,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:22,End Case Now button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T01:04:22,Therapy state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T01:04:22,Standby state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:38:26,Start Case button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:38:26,Standby state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:38:26,Checkout state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:38:26,Menu Opened: Checkout,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:38:31,Bypass button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:38:31,Start Case state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:38:31,Menu Opened: Start Case,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:38:34,Start Anesthesia button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:38:34,Start Case state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:38:34,Therapy state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:38:34,DEBUG-SystemController: setRandRStatusLocation in Therapy ==>  Request status is true: 211  errocode:  ,STATE_TRANSITION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T11:38:34,CO2 Apnea FSM Transition to STANDBY state,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:38:47,KeyPressed on : Menu: VCV button is pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:38:47,Menu Opened: Vent,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:38:48, PCV button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:38:52,QuickKey: Pinsp setting changed from 5 to 5,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:38:57,KeyPressed on : Quick Key: PCV PInsp - 5,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:39:03,QuickKey: Pinsp setting changed from 5 to 10,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:39:04,KeyPressed on : Quick Key: PCV RR - 12,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T11:39:08,QuickKey: RR setting changed from 12 to 16,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:39:10,KeyPressed on : Quick Key: PCV IE - 1:2,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:39:15,QuickKey: I:E setting changed from 1:2 to 1:2.1,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:39:16,KeyPressed on : Quick Key: PCV PEEP - Off,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T11:39:19,QuickKey: PEEP setting changed from Off to 4,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:39:20,KeyPressed on : Quick Key: PCV Pmax - 40,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:39:22,QuickKey: Pmax setting changed from 40 to 45,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:39:24,KeyPressed on : Menu Opened: More Settings: PCV,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:24,Menu Opened: More Settings,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:26,MoreSettingsMenu button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:27,MoreSettingsMenu button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:30,MoreSettingsMenu button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:30,Rise Rate; New Numeric Value: 1,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:39:32,More Menu Close button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:36,KeyPressed on : Menu: PCV button is pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:36,Menu Opened: Vent,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:40, SIMV VCV button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:39:46,QuickKey: TV setting changed from  to 600,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:39:48,KeyPressed on : Quick Key: SIMV_VCV mechRR - 16,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T11:39:52,QuickKey: RR setting changed from 16 to 12,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:39:54,KeyPressed on : Quick Key: SIMV_VCV FlowTrigger - 2.0,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:39:57,QuickKey: Flow Trigger setting changed from 2.0 to 1.5,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:39:58,KeyPressed on : Quick Key: SIMV_VCV Psupport - 10,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:01,QuickKey: Psupport setting changed from 10 to 11,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:40:02,KeyPressed on : Quick Key: SIMV_VCV PEEP - 4,USER_ACTION,"SBX,DOCOM,HL7",POTENTIAL_DEFECT,Configuration changes must be reflected in Do-Com,DEF_DOCOM_001
+2026-04-22T11:40:04,QuickKey: PEEP setting changed from 4 to 6,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:40:06,KeyPressed on : Menu Opened: More Settings: SIMV VCV,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:06,Menu Opened: More Settings,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:13,Pmax; New Numeric Value: 48,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:15,More Menu Close button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:21,KeyPressed on : Et Control Button Pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:21,Menu Opened: Et Control,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:23,KeyPressed on : ETControl Menu : On Button Clicked,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:28,KeyPressed on : Et O2 Presets Opened,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:28,KeyPressed on : Et O2 Quick Key Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:30,KeyPressed on : Preset :  Et O2 Target %: 75 Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:30,KeyPressed on : Et O2 Presets Closed,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:33,KeyPressed on : Min Flow Presets Opened,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:33,KeyPressed on : Min. Flow Quick Key Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:35,KeyPressed on : Preset :  Min. Flow l/min: 1 Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:35,KeyPressed on : Min Flow Presets Closed,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:48,KeyPressed on : Et Control Button Pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:48,Menu Opened: Et Control,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:49,KeyPressed on : Min. Flow Quick Key Deselected.,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:40:49,KeyPressed on : ETControl Menu : Off Button Clicked,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:54,Spirometry button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:40:54,Menu Opened: Spirometry,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:41:53,System Setup button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:41:53,Menu Opened: System Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:41:55,Alarms On/Off button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:41:55,Menu Opened: Auto Limits,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:41:56,Alarm Setup button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:41:56,Menu Opened: Alarm Setup,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:05,MV(Low Limit); New Numeric Value: 2.3,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:08,EtCO2(Low Limit); New Numeric Value: 3.4,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:12,FiO2(Low Limit); New Numeric Value: 25,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:18,FiO2(Low Limit); New Numeric Value: 19,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:25,TV(Low Limit); New Numeric Value: 1,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:27,RR(Low Limit); New Numeric Value: 1,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:32,EtO2(Low Limit); New Numeric Value: 1,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:35,MAC Age(Low Limit); New Numeric Value: 0.4,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:49,TV(High Limit); New Numeric Value: 820,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:55,EtSev(Low Limit); New Numeric Value: 0.2,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:42:58,EtSev(High Limit); New Numeric Value: 9.8,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:43:03,EtDes(Low Limit); New Numeric Value: 0.2,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:43:06,EtDes(High Limit); New Numeric Value: 19.9,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:43:23,Alarm Volume; New Numeric Value: 4,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:43:28,Apnea Delay; New Numeric Value: 28,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:43:44,Change to Default Limits button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:43:47,Change to Default Limits button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:43:49,Change to Default Limits button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:43:49,Change to Default Limits button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:44:09,FiO2(Low Limit); New Numeric Value: 22,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:44:13,FiO2(Low Limit); New Numeric Value: 19,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not export UI alarm or limit configuration,EXP_HL7_001
+2026-04-22T11:44:22,KeyPressed on : Et Control Button Pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:44:22,Menu Opened: Et Control,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:44:25,KeyPressed on : ETControl Menu : On Button Clicked,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:44:30,KeyPressed on : Et O2 Presets Opened,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:44:31,KeyPressed on : Et O2 Quick Key Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:44:34,KeyPressed on : Preset :  Et O2 Target %: 100 Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:44:34,KeyPressed on : Et O2 Presets Closed,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:44:36,KeyPressed on : Min Flow Presets Opened,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:44:36,KeyPressed on : Min. Flow Quick Key Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:44:38,KeyPressed on : Preset :  Min. Flow l/min: 1 Selected,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:44:38,KeyPressed on : Min Flow Presets Closed,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:45:02,KeyPressed on : Et Control Button Pressed,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:45:02,Menu Opened: Et Control,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:45:04,KeyPressed on : Min. Flow Quick Key Deselected.,USER_ACTION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:45:04,KeyPressed on : ETControl Menu : Off Button Clicked,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:45:21,Start Case button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:45:21,Menu Opened: End Case,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:45:22,End Case Now button is pressed.,USER_ACTION,"SBX,DOCOM,HL7",EXPECTED_MISSING,HL7 does not reflect UI navigation events,EXP_HL7_002
+2026-04-22T11:45:22,Therapy state exited.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001
+2026-04-22T11:45:22,Standby state entered.,STATE_TRANSITION,"SBX,DOCOM,HL7",REVIEW_REQUIRED,No matching classification rule,REVIEW_001

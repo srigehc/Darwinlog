@@ -1,0 +1,45 @@
+rules:
+
+  - id: COVERAGE_001
+    description: Vent setting changes must appear in SBX and Do-Com
+    applies_to: USER_ACTION
+    match:
+      system_event_contains:
+        - "QuickKey"
+        - "VentSetting"
+    require:
+      SBX_min: 1
+      DOCOM_min: 1
+      HL7_optional: true
+    severity: ERROR
+
+
+  - id: CONSTRAINT_001
+    description: Every setting change must pass constraint check
+    applies_to: USER_ACTION
+    match:
+      system_event_contains:
+        - "QuickKey"
+        - "VentSetting"
+    require_SBX_contains:
+      - "Constraint check status is: 1"
+    severity: ERROR
+
+
+  - id: STATE_SEQ_001
+    description: Start Case must precede Therapy
+    type: SEQUENCE
+    sequence:
+      - "Start Case"
+      - "Therapy"
+    severity: ERROR
+
+
+  - id: ALARM_001
+    description: LOW FI O2 alarm requires FiO2 limit change
+    match:
+      system_event_contains:
+        - "LOW FI O2 On"
+    require_prior_SYSTEM:
+      - "FiO2"
+    severity: WARNING

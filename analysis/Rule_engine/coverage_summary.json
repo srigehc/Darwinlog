@@ -1,0 +1,22 @@
+{
+  "overall": {
+    "total": 291,
+    "SBX_coverage_pct": 0.0,
+    "DOCOM_coverage_pct": 0.0,
+    "HL7_coverage_pct": 0.0
+  },
+  "by_type": {
+    "STATE_TRANSITION": {
+      "total": 46,
+      "SBX_coverage_pct": 0.0,
+      "DOCOM_coverage_pct": 0.0,
+      "HL7_coverage_pct": 0.0
+    },
+    "USER_ACTION": {
+      "total": 245,
+      "SBX_coverage_pct": 0.0,
+      "DOCOM_coverage_pct": 0.0,
+      "HL7_coverage_pct": 0.0
+    }
+  }
+}

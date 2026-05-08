@@ -1,0 +1,53 @@
+rules:
+
+  # -------------------------
+  # HL7 expected omissions
+  # -------------------------
+  - id: EXP_HL7_001
+    missing_in: HL7
+    system_event_contains:
+      - "QuickKey"
+      - "Alarm"
+      - "Limit"
+    classification: EXPECTED_MISSING
+    reason: "HL7 does not export UI alarm or limit configuration"
+
+  - id: EXP_HL7_002
+    missing_in: HL7
+    system_event_contains:
+      - "Menu Opened"
+      - "Button"
+    classification: EXPECTED_MISSING
+    reason: "HL7 does not reflect UI navigation events"
+
+  # -------------------------
+  # SBX must-have rules
+  # -------------------------
+  - id: DEF_SBX_001
+    missing_in: SBX
+    system_event_contains:
+      - "QuickKey"
+      - "VentSetting"
+      - "Mode"
+    classification: POTENTIAL_DEFECT
+    reason: "Vent or mode changes must be reflected in SBX"
+
+  # -------------------------
+  # Do-Com must-have rules
+  # -------------------------
+  - id: DEF_DOCOM_001
+    missing_in: DOCOM
+    system_event_contains:
+      - "VentSetting"
+      - "Gas"
+      - "PEEP"
+      - "RR"
+    classification: POTENTIAL_DEFECT
+    reason: "Configuration changes must be reflected in Do-Com"
+
+  # -------------------------
+  # Fallback
+  # -------------------------
+  - id: REVIEW_001
+    classification: REVIEW_REQUIRED
+    reason: "No matching classification rule"
