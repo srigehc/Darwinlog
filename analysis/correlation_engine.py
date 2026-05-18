@@ -90,10 +90,19 @@ def save_to_csv(rows, output_path):
     
     print(f"✅ CSV saved to {output_path}")
 
+def correlation_engine_main():
+    INPUT_JSON = "outputs/normalized_logs.json"
+    OUTPUT_CSV = "outputs/correlation_table.csv"
 
-if __name__ == "__main__":
-    INPUT_JSON = "output/normalized_logs.json"
-    OUTPUT_CSV = "output/correlation_table.csv"
+    rows = correlate(INPUT_JSON)
+
+    # Save to CSV
+    save_to_csv(rows, OUTPUT_CSV)
+    print(f"✅ Correlation rows generated: {len(rows)} and saved to CSV.")
+
+if __name__ == "__main__":      # you can run this directly, or import correlation_engine_main() from another script
+    INPUT_JSON = "outputs/normalized_logs.json"
+    OUTPUT_CSV = "outputs/correlation_table.csv"
 
     rows = correlate(INPUT_JSON)
 

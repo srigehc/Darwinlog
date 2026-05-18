@@ -105,7 +105,7 @@ def normalize_sbx_log(xml_path, sbx_base_time):
             f"(expected for internal / untimestamped SBX updates)"
         )
 
-    print("DEBUG: normalize_sbx_log returning", len(events), "events")
+    #print("DEBUG: normalize_sbx_log returning", len(events), "events")
     return events
 
 

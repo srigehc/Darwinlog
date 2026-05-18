@@ -3,7 +3,7 @@ import json
 from collections import Counter
 
 # Load correlation results
-rows = list(csv.DictReader(open('output/correlation_table.csv')))
+rows = list(csv.DictReader(open('outputs/correlation_table.csv')))
 
 # Count correlations
 sbx_corr = sum(1 for r in rows if r['SBX_present'] == 'True')

@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-13T14:45:42.199285",
+  "summary": [
+    {
+      "stream": "SBX",
+      "count": 310,
+      "expected": 2.0,
+      "max_gap": 2.097,
+      "avg_gap": 2.0,
+      "90%": 2.006,
+      "95%": 2.032,
+      "jitter": 0.021,
+      "status": "PASS",
+      "insight": "Stable cadence, minimal jitter"
+    },
+    {
+      "stream": "DOCOM",
+      "count": 50,
+      "expected": 10.0,
+      "max_gap": 11.029,
+      "avg_gap": 9.469,
+      "90%": 10.014,
+      "95%": 10.511,
+      "jitter": 1.822,
+      "status": "PASS",
+      "insight": "Stable cadence, minimal jitter"
+    },
+    {
+      "stream": "HL7",
+      "count": 67,
+      "expected": 10.0,
+      "max_gap": 10.0,
+      "avg_gap": 10.0,
+      "90%": 10.0,
+      "95%": 10.0,
+      "jitter": 0.0,
+      "status": "PASS",
+      "insight": "Stable cadence, minimal jitter"
+    }
+  ]
+}
