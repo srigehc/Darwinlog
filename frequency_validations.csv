@@ -1,6 +1,8 @@
-stream,count,expected,max_gap,avg_gap,90%,95%,jitter,status,insight,validated_events,expected_sec,max_gap_sec,avg_gap_sec,p90_gap_sec,p95_gap_sec
-SBX,310.0,2.0,2.097,2.0,2.006,2.032,0.021,PASS,"Stable cadence, minimal jitter",,,,,,
-DOCOM,50.0,10.0,11.029,9.469,10.014,10.511,1.822,PASS,"Stable cadence, minimal jitter",,,,,,
-HL7,67.0,10.0,10.0,10.0,10.0,10.0,0.0,PASS,"Stable cadence, minimal jitter",,,,,,
-Waveform_AM,,,,,,,,WARN,,1549.0,0.4,1.257,0.401,0.454,0.46
-Waveform_PM,,,,,,,,FAIL,,0.0,0.5,,,,
+stream,count,expected,max_gap,avg_gap,90%,95%,jitter,status,insight
+SBX,310,2.0,2.097,2.0,2.006,2.032,0.021,PASS,"Stable cadence, minimal jitter"
+DOCOM,50,10.0,11.029,9.469,10.014,10.511,1.822,PASS,"Stable cadence, minimal jitter"
+HL7,67,10.0,10.0,10.0,10.0,10.0,0.0,PASS,"Stable cadence, minimal jitter"
+
+stream,validated_events,expected_sec,max_gap_sec,avg_gap_sec,p90_gap_sec,p95_gap_sec,jitter,status,insight
+Waveform_AM,1549,0.4,1.257,0.401,0.454,0.46,N/A,WARN,Exceeded tolerance
+Waveform_PM,0,0.5,,,,,N/A,FAIL,Insufficient samples

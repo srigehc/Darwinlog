@@ -301,7 +301,8 @@ def validate_waveform_frequency(timestamps, expected_sec, tolerance_sec):
             "avg_gap_sec": "",
             "p90_gap_sec": "",
             "p95_gap_sec": "",
-            "status": "FAIL"
+            "status": "FAIL",
+            "insight": "Insufficient samples"
         }
 
     gaps = [
@@ -317,6 +318,7 @@ def validate_waveform_frequency(timestamps, expected_sec, tolerance_sec):
     status = (
         "PASS" if max_gap <= expected_sec + tolerance_sec else "WARN"
     )
+    insight = "Stable cadence" if status == "PASS" else "Exceeded tolerance"
 
     return {
         "validated_events": len(timestamps),
@@ -324,7 +326,9 @@ def validate_waveform_frequency(timestamps, expected_sec, tolerance_sec):
         "avg_gap_sec": round(avg_gap, 3),
         "p90_gap_sec": round(p90, 3),
         "p95_gap_sec": round(p95, 3),
-        "status": status
+        "jitter": None,  # Jitter can be added if needed by calculating stdev of gaps
+        "status": status,
+        "insight": insight
     }
 def build_waveform_validation_rows(waveform_events):
     rows = []
@@ -346,23 +350,41 @@ def build_waveform_validation_rows(waveform_events):
             "avg_gap_sec": result["avg_gap_sec"],
             "p90_gap_sec": result["p90_gap_sec"],
             "p95_gap_sec": result["p95_gap_sec"],
-            "jitter": "",
-            "status": result["status"]
+            "jitter": "N/A",
+            "status": result["status"],
+            "insight": result["insight"]
         })
 
     return rows
 
 
 def append_to_frequency_csv(new_rows, csv_path="frequency_validations.csv"):
-    df_new = pd.DataFrame(new_rows)
-
+    """
+    Appends waveform validation rows to the frequency CSV as a separate table.
+    This maintains two distinct tables: event streams and waveform data.
+    """
+    waveform_columns = ["stream", "validated_events", "expected_sec", "max_gap_sec", "avg_gap_sec", "p90_gap_sec", "p95_gap_sec", "jitter", "status", "insight"]
+    
     try:
-        df_existing = pd.read_csv(csv_path)
-        df_final = pd.concat([df_existing, df_new], ignore_index=True)
+        # Read existing CSV (which has event data)
+        with open(csv_path, "r", encoding="utf-8") as f:
+            existing_content = f.read()
     except FileNotFoundError:
-        df_final = df_new
+        existing_content = ""
 
-    df_final.to_csv(csv_path, index=False)
+    # Create DataFrame for waveform rows with only relevant columns
+    df_waveform = pd.DataFrame(new_rows)
+    waveform_csv = df_waveform[waveform_columns].to_csv(index=False)
+
+    # Write combined file: existing event data + blank line + waveform table header + waveform data
+    with open(csv_path, "w", encoding="utf-8") as f:
+        # Write existing event data
+        if existing_content:
+            f.write(existing_content)
+            f.write("\n")  # Blank line separator
+        
+        # Write waveform table with header
+        f.write(waveform_csv)
 
 def load_waveform_jsonl(path):
     events = []
