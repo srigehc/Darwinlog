@@ -221,11 +221,11 @@ def validate_frequency(events, channel, expected_sec, tolerance_sec):
     return {
         "stream": channel,
         "count": count,
-        "expected": expected_sec,
+        "expected_gap": expected_sec,
         "max_gap": round(max_gap, 3),
         "avg_gap": avg_gap,
-        "90%": p90,
-        "95%": p95,
+        "p90_gap": p90,
+        "p95_gap": p95,
         "jitter": jitter,
         "status": status,
         "insight": insight

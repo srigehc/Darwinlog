@@ -1,0 +1,20 @@
+=== LOG ANALYSIS REPORT ===
+
+Total Streams Analyzed: 3
+Anomalies Detected: 1
+New Issues: 3
+Accepted Issues: 0
+Escalated Issues: 0
+
+=== DETAILED FINDINGS ===
+
+Stream: DOCOM
+Source: None
+Issue: NORMAL_BEHAVIOR
+Pattern: STABLE
+Severity: LOW
+Status: NEW
+Insight: insight                       Stable cadence, minimal jitter
+insight    Stream behavior appears stable with no signifi...
+Name: 1, dtype: object
+--------------------------------------------------

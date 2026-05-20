@@ -1,0 +1,35 @@
+[
+  {
+    "stream": "SBX",
+    "source": null,
+    "anomaly_flag": 1,
+    "anomaly_score": 0.16533135845277835,
+    "severity": "NORMAL",
+    "issue_type": "NORMAL_BEHAVIOR",
+    "pattern": "STABLE",
+    "insight": null,
+    "feedback_status": "NEW"
+  },
+  {
+    "stream": "DOCOM",
+    "source": null,
+    "anomaly_flag": -1,
+    "anomaly_score": -0.03420107815846096,
+    "severity": "LOW",
+    "issue_type": "NORMAL_BEHAVIOR",
+    "pattern": "STABLE",
+    "insight": null,
+    "feedback_status": "NEW"
+  },
+  {
+    "stream": "HL7",
+    "source": null,
+    "anomaly_flag": 1,
+    "anomaly_score": 0.13680431263384396,
+    "severity": "NORMAL",
+    "issue_type": "NORMAL_BEHAVIOR",
+    "pattern": "STABLE",
+    "insight": null,
+    "feedback_status": "NEW"
+  }
+]
