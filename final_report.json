@@ -3,33 +3,33 @@
     "stream": "SBX",
     "source": null,
     "anomaly_flag": 1,
-    "anomaly_score": 0.16533135845277835,
+    "anomaly_score": 0.1170521786055051,
     "severity": "NORMAL",
     "issue_type": "NORMAL_BEHAVIOR",
     "pattern": "STABLE",
-    "insight": null,
+    "insight": "insight                       Stable cadence, minimal jitter\ninsight    Stream behavior appears stable with no signifi...\nName: 0, dtype: object",
     "feedback_status": "NEW"
   },
   {
     "stream": "DOCOM",
     "source": null,
     "anomaly_flag": -1,
-    "anomaly_score": -0.03420107815846096,
+    "anomaly_score": -0.029263044651376302,
     "severity": "LOW",
     "issue_type": "NORMAL_BEHAVIOR",
     "pattern": "STABLE",
-    "insight": null,
+    "insight": "insight                                 Insufficient samples\ninsight    Stream behavior appears stable with no signifi...\nName: 1, dtype: object",
     "feedback_status": "NEW"
   },
   {
     "stream": "HL7",
     "source": null,
     "anomaly_flag": 1,
-    "anomaly_score": 0.13680431263384396,
+    "anomaly_score": 0.1556473475717105,
     "severity": "NORMAL",
     "issue_type": "NORMAL_BEHAVIOR",
     "pattern": "STABLE",
-    "insight": null,
+    "insight": "insight                       Stable cadence, minimal jitter\ninsight    Stream behavior appears stable with no signifi...\nName: 2, dtype: object",
     "feedback_status": "NEW"
   }
 ]

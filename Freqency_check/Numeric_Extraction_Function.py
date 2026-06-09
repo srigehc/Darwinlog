@@ -79,6 +79,10 @@ def extract_sbx_numeric_events(sbx_log_path: str) -> list[dict]:
     
     results = []
 
+    if not os.path.exists(sbx_log_path):
+        print(f"⚠️  File not found: {sbx_log_path} (skipping SBX extraction)")
+        return results
+
     current_timestamp = None
     buffering = False
     sapphire_lines = []
@@ -133,6 +137,10 @@ NUMERIC_RE = re.compile(r"=\s*([0-9]+(?:\.[0-9]+)?)")
 def extract_docom_numeric_events(docom_log_path):
     results = []
 
+    if not os.path.exists(docom_log_path):
+        print(f"⚠️  File not found: {docom_log_path} (skipping DOCOM extraction)")
+        return results
+
     current_ts = None
     saw_numeric = False
 
@@ -176,6 +184,10 @@ def extract_docom_numeric_events(docom_log_path):
 
 def extract_hl7_numeric_events(hl7_log_path):
     results = []
+
+    if not os.path.exists(hl7_log_path):
+        print(f"⚠️  File not found: {hl7_log_path} (skipping HL7 extraction)")
+        return results
 
     with open(hl7_log_path, "r", encoding="utf-8", errors="ignore") as f:
         message = []

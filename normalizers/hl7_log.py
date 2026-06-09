@@ -1,7 +1,7 @@
 import datetime
 from utils.mdc_registry import decode_mdc
 from model import NormalizedEvent
-
+import os
 
 def parse_hl7_timestamp(ts):
     """Parse HL7 timestamp format: YYYYMMDDHHmmss[+/-offset]"""
@@ -16,31 +16,38 @@ def parse_hl7_timestamp(ts):
 
 
 def normalize_hl7_log(file_path):
-    events = []
+    """
+    YIELDS HL7 events one by one (generator) to handle large files efficiently.
+    Processes line-by-line without loading entire file into memory.
+    """
     current_message_ts = None
+    
+    if not os.path.exists(file_path):
+        print(f"[WARNING] HL7 log file not found: {file_path}")
+        return 
+    
+    try:
+        with open(file_path, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
 
-    with open(file_path, encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
+                # Skip JSON metadata lines
+                if line.startswith("{") or line.startswith("}") or line.startswith('"'):
+                    continue
 
-            # Skip JSON metadata lines
-            if line.startswith("{") or line.startswith("}") or line.startswith('"'):
-                continue
-
-            if line.startswith("MSH"):
-                # Parse MSH segment for timestamp
-                fields = line.split("|")
-                if len(fields) > 6:
-                    current_message_ts = parse_hl7_timestamp(fields[6])
-                    
-                    # Create MSH event with proper timestamp
-                    msg_type = fields[8] if len(fields) > 8 else "UNKNOWN"
-                    msg_control_id = fields[9] if len(fields) > 9 else ""
-                    
-                    events.append(
-                        NormalizedEvent(
+                if line.startswith("MSH"):
+                    # Parse MSH segment for timestamp
+                    fields = line.split("|")
+                    if len(fields) > 6:
+                        current_message_ts = parse_hl7_timestamp(fields[6])
+                        
+                        # Create MSH event with proper timestamp
+                        msg_type = fields[8] if len(fields) > 8 else "UNKNOWN"
+                        msg_control_id = fields[9] if len(fields) > 9 else ""
+                        
+                        yield NormalizedEvent(
                             timestamp=current_message_ts,
                             source="HL7",
                             subsystem="HL7_MESSAGE",
@@ -55,27 +62,25 @@ def normalize_hl7_log(file_path):
                             },
                             raw=line
                         )
-                    )
 
-            elif line.startswith("OBX"):
-                # Parse OBX (observation) segment
-                fields = line.split("|")
-                
-                # OBX|seq|datatype|MDC_CODE^description||value|units|...
-                mdc_field = fields[3] if len(fields) > 3 else ""
-                value = fields[5] if len(fields) > 5 else None
-                unit = fields[6] if len(fields) > 6 else None
+                elif line.startswith("OBX"):
+                    # Parse OBX (observation) segment
+                    fields = line.split("|")
+                    
+                    # OBX|seq|datatype|MDC_CODE^description||value|units|...
+                    mdc_field = fields[3] if len(fields) > 3 else ""
+                    value = fields[5] if len(fields) > 5 else None
+                    unit = fields[6] if len(fields) > 6 else None
 
-                if "^" in mdc_field:
-                    mdc_code = mdc_field.split("^")[0]
-                else:
-                    mdc_code = mdc_field
+                    if "^" in mdc_field:
+                        mdc_code = mdc_field.split("^")[0]
+                    else:
+                        mdc_code = mdc_field
 
-                meta = decode_mdc(mdc_code)
+                    meta = decode_mdc(mdc_code)
 
-                if meta["parameter"] != "UNKNOWN":
-                    events.append(
-                        NormalizedEvent(
+                    if meta["parameter"] != "UNKNOWN":
+                        yield NormalizedEvent(
                             timestamp=current_message_ts,  # Use MSH timestamp
                             source="HL7",
                             subsystem="HL7_OBSERVATION",
@@ -91,6 +96,5 @@ def normalize_hl7_log(file_path):
                             },
                             raw=line
                         )
-                    )
-
-    return events
+    except Exception as e:
+        print(f"[ERROR] Processing HL7 log: {e}")

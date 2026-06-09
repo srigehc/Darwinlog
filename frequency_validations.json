@@ -1,33 +1,27 @@
 {
-  "generated_at": "2026-05-19T10:15:26.154503",
+  "generated_at": "2026-06-09T12:56:22.031594",
   "summary": [
     {
       "stream": "SBX",
-      "count": 310,
+      "count": 10732,
       "expected_gap": 2.0,
-      "max_gap": 2.097,
+      "max_gap": 2.081,
       "avg_gap": 2.0,
-      "p90_gap": 2.006,
-      "p95_gap": 2.032,
-      "jitter": 0.021,
+      "p90_gap": 2.011,
+      "p95_gap": 2.043,
+      "jitter": 0.019,
       "status": "PASS",
       "insight": "Stable cadence, minimal jitter"
     },
     {
       "stream": "DOCOM",
-      "count": 50,
-      "expected_gap": 10.0,
-      "max_gap": 11.029,
-      "avg_gap": 9.469,
-      "p90_gap": 10.014,
-      "p95_gap": 10.511,
-      "jitter": 1.822,
-      "status": "PASS",
-      "insight": "Stable cadence, minimal jitter"
+      "count": 0,
+      "status": "FAIL",
+      "insight": "Insufficient samples"
     },
     {
       "stream": "HL7",
-      "count": 67,
+      "count": 6425,
       "expected_gap": 10.0,
       "max_gap": 10.0,
       "avg_gap": 10.0,

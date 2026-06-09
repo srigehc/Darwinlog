@@ -4,7 +4,7 @@ import os
 BASE_DIR = r"C:\Users\212805796\Documents\Automation\Darwin log compare"
 
 # ✅ Input files
-SBX_LOG = os.path.join(BASE_DIR, "sbxLog.xml")
+SBX_LOG = os.path.join(BASE_DIR, "sbxLog_trimmed.xml")
 DOCOM_LOG = os.path.join(BASE_DIR, "DoComLog.txt")
 HL7_LOG = os.path.join(BASE_DIR, "hl7Log.txt")
 SystemLog = os.path.join(BASE_DIR, "SystemLog.csv")

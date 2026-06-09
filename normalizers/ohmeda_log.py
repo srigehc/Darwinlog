@@ -1,7 +1,7 @@
 import datetime
 import re
 from model import NormalizedEvent
-
+import os
 
 # ---------------------------------------------------------------------
 # Regex patterns
@@ -34,63 +34,67 @@ DATA_STATUS_RE = re.compile(
 def normalize_ohmeda_log(log_path, base_date):
     """
     Normalize Do‑Com (Ohmeda) logs.
+    YIELDS events one by one (generator) to handle large files efficiently.
 
     Supports:
     - HH:MM:SS.mmm headers
     - Status Data Response headers
     - Timestamp inheritance for indented lines
     """
-    events = []
     last_command_value = {}
-
     current_ts = None  # ✅ block-level timestamp
+    
+    if not os.path.exists(log_path):
+        print(f"[WARNING] Ohmeda log file not found: {log_path}")
+        return
+    
+    try:
+        with open(log_path, encoding="utf-8") as f:
+            for raw_line in f:
+                line = raw_line.rstrip("\n")
 
-    with open(log_path, encoding="utf-8") as f:
-        for raw_line in f:
-            line = raw_line.rstrip("\n")
+                if not line.strip():
+                    continue
 
-            if not line.strip():
-                continue
+                # ---------------------------------------------------------
+                # Try to extract a NEW timestamp
+                # ---------------------------------------------------------
+                ts, text = extract_timestamp(line, base_date)
 
-            # ---------------------------------------------------------
-            # Try to extract a NEW timestamp
-            # ---------------------------------------------------------
-            ts, text = extract_timestamp(line, base_date)
+                if ts is not None:
+                    # ✅ New timestamp starts a new block
+                    current_ts = ts
+                    continue  # header line itself has no commands
 
-            if ts is not None:
-                # ✅ New timestamp starts a new block
-                current_ts = ts
-                continue  # header line itself has no commands
+                if current_ts is None:
+                    # ❌ Lines before first timestamp are ignored
+                    continue
 
-            if current_ts is None:
-                # ❌ Lines before first timestamp are ignored
-                continue
+                # ✅ Inherit timestamp
+                ts = current_ts
+                text = line.strip()
 
-            # ✅ Inherit timestamp
-            ts = current_ts
-            text = line.strip()
+                # ---------------------------------------------------------
+                # Data Status (protocol-level)
+                # ---------------------------------------------------------
+                status_event = parse_data_status(text, ts)
+                if status_event:
+                    yield status_event
+                    continue
 
-            # ---------------------------------------------------------
-            # Data Status (protocol-level)
-            # ---------------------------------------------------------
-            status_event = parse_data_status(text, ts)
-            if status_event:
-                events.append(status_event)
-                continue
+                # ---------------------------------------------------------
+                # set … commands (operator / configuration intent)
+                # ---------------------------------------------------------
+                cmd_event = parse_set_command(
+                    text, ts, last_command_value
+                )
+                if cmd_event:
+                    yield cmd_event
+                    continue
 
-            # ---------------------------------------------------------
-            # set … commands (operator / configuration intent)
-            # ---------------------------------------------------------
-            cmd_event = parse_set_command(
-                text, ts, last_command_value
-            )
-            if cmd_event:
-                events.append(cmd_event)
-                continue
-
-            # Everything else intentionally ignored
-
-    return events
+                # Everything else intentionally ignored
+    except Exception as e:
+        print(f"[ERROR] Processing Ohmeda log: {e}")
 
 
 # ---------------------------------------------------------------------

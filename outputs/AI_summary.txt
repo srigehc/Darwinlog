@@ -1,20 +1,40 @@
 === LOG ANALYSIS REPORT ===
 
-Total Streams Analyzed: 3
+Total Streams Analyzed: 3 {Streams: SBX, DOCOM, HL7}
+
+
 Anomalies Detected: 1
 New Issues: 3
 Accepted Issues: 0
 Escalated Issues: 0
 
+=== FREQUENCY VALIDATION ===
+
+Stream: SBX
+  Avg Gap: 2.0 ms
+  P95 Gap: 2.043 ms
+  Expected: 2.0 ms
+  Status: PASS
+
+Stream: DOCOM
+  Avg Gap: nan ms
+  P95 Gap: nan ms
+  Expected: nan ms
+  Status: FAIL
+
+Stream: HL7
+  Avg Gap: 10.0 ms
+  P95 Gap: 10.0 ms
+  Expected: 10.0 ms
+  Status: PASS
+
 === DETAILED FINDINGS ===
 
 Stream: DOCOM
-Source: None
 Issue: NORMAL_BEHAVIOR
 Pattern: STABLE
 Severity: LOW
 Status: NEW
-Insight: insight                       Stable cadence, minimal jitter
-insight    Stream behavior appears stable with no signifi...
-Name: 1, dtype: object
+Insight: Insufficient samples
 --------------------------------------------------
+=== FINAL CONCLUSION ===

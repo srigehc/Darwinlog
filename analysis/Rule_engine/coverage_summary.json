@@ -1,22 +1,22 @@
 {
   "overall": {
-    "total": 209,
-    "SBX_coverage_pct": 55.0,
-    "DOCOM_coverage_pct": 73.2,
-    "HL7_coverage_pct": 73.2
+    "total": 14206,
+    "SBX_coverage_pct": 0.0,
+    "DOCOM_coverage_pct": 0.0,
+    "HL7_coverage_pct": 0.0
   },
   "by_type": {
-    "ALARM": {
-      "total": 35,
-      "SBX_coverage_pct": 8.6,
-      "DOCOM_coverage_pct": 31.4,
-      "HL7_coverage_pct": 31.4
-    },
     "USER_ACTION": {
-      "total": 174,
-      "SBX_coverage_pct": 64.4,
-      "DOCOM_coverage_pct": 81.6,
-      "HL7_coverage_pct": 81.6
+      "total": 12904,
+      "SBX_coverage_pct": 0.0,
+      "DOCOM_coverage_pct": 0.0,
+      "HL7_coverage_pct": 0.0
+    },
+    "ALARM": {
+      "total": 1302,
+      "SBX_coverage_pct": 0.0,
+      "DOCOM_coverage_pct": 0.0,
+      "HL7_coverage_pct": 0.0
     }
   }
 }

@@ -7,13 +7,13 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import config
-from ai_engine import AIEngine
-from feature_builder import FeatureBuilder
-from anomaly_interpreter import AnomalyInterpreter
-from feedback_manager import FeedbackManager
-from report_generator import ReportGenerator
-from time_alignment import TimeAlignment
-from Ai_correlation_analyzer import CorrelationAnalyzer
+from .ai_engine import AIEngine
+from .feature_builder import FeatureBuilder
+from .anomaly_interpreter import AnomalyInterpreter
+from .feedback_manager import FeedbackManager
+from .report_generator import ReportGenerator
+from .time_alignment import TimeAlignment
+from .Ai_correlation_analyzer import CorrelationAnalyzer
 
 
 def main(input_file="frequency_validations.csv"):
@@ -62,6 +62,16 @@ def main(input_file="frequency_validations.csv"):
         print(f"📖 Loading correlation data from: {correlation_path}")
         try:
             corr_df = pd.read_csv(correlation_path)
+            
+            corr_df_raw = corr_df.copy()
+
+            corr_df, alignment_info = alignment.apply_alignment(corr_df)
+
+            print("\n=== TIME ALIGNMENT INFO ===")
+            print(alignment_info)
+            print("Rows before:", len(corr_df_raw))
+            print("Rows after:", len(corr_df))
+
             
             # Time Alignment
             alignment = TimeAlignment()
@@ -124,7 +134,9 @@ def main(input_file="frequency_validations.csv"):
     # Step 6: Report Generation ✅
     # -------------------------------------------------
     reporter = ReportGenerator()
-    report_text = reporter.generate_all(df)
+    report_text = reporter.generate_text_report(df, corr_result=corr_result)
+    reporter.generate_csv(df)
+    reporter.generate_json(df)
 
     # Save report to file
     output_dir = "outputs"

@@ -72,6 +72,12 @@ def normalize_sbx_log(xml_path, sbx_base_time):
     events = []
     last_sbx_state = {}
     fallback_count = 0
+    
+    # Debug counters
+    total_blocks = 0
+    parse_errors = 0
+    blocks_with_cfg = 0
+    blocks_no_changes = 0
 
     with open(xml_path, encoding="utf-8") as f:
         content = f.read()
@@ -82,11 +88,20 @@ def normalize_sbx_log(xml_path, sbx_base_time):
     for idx, (ts, block) in enumerate(
             iter_sbx_blocks_with_timestamp(xml_path, sbx_base_time)
     ):
+        total_blocks += 1
+        
         try:
             root = ET.fromstring(block)
-        except Exception:
+        except Exception as e:
+            parse_errors += 1
             continue
 
+        # Count if block has cfg data
+        has_cfg = any(elem.tag.endswith("}cfg") or "cfg" in elem.tag for elem in root.iter())
+        if has_cfg:
+            blocks_with_cfg += 1
+
+        events_before = len(events)
         extract_sbx_semantic_changes(
             root=root,
             ts=ts,
@@ -94,7 +109,9 @@ def normalize_sbx_log(xml_path, sbx_base_time):
             events=events,
             last_state=last_sbx_state
         )
-
+        
+        if len(events) == events_before:
+            blocks_no_changes += 1
 
         if len(events) >= MAX_SBX_EVENTS:
             break
@@ -104,6 +121,13 @@ def normalize_sbx_log(xml_path, sbx_base_time):
             f"INFO: SBX fallback timestamp used for {fallback_count} blocks "
             f"(expected for internal / untimestamped SBX updates)"
         )
+    
+    # Debug summary
+    #print(f"\n[DEBUG-SBX] Total blocks: {total_blocks}")
+    #print(f"[DEBUG-SBX] Parse errors: {parse_errors}")
+    #print(f"[DEBUG-SBX] Blocks with cfg: {blocks_with_cfg}")
+    #print(f"[DEBUG-SBX] Blocks with no changes: {blocks_no_changes}")
+    #print(f"[DEBUG-SBX] Total events created: {len(events)}")
 
     #print("DEBUG: normalize_sbx_log returning", len(events), "events")
     return events
@@ -144,7 +168,15 @@ def extract_sbx_semantic_changes(root, ts, block, events, last_state):
     """
 
     current = flatten_cfg_state(root)
-
+    
+    # Debug first block only
+    ''' if len(events) == 0 and current:
+       # print(f"[DEBUG-SBX] First block found {len(current)} cfg fields:")
+        for i, key in enumerate(list(current.keys())[:10]):  # Show first 10
+            print(f"  - {key}")
+        if len(current) > 10:
+            print(f"  ... and {len(current)-10} more")
+    '''
     for key, new_val in current.items():
 
         # Allow-list semantic paths only
